@@ -223,7 +223,7 @@ figure_list:
     src: figures/cat-44.jpg
     zoom: true
 
-  - id: “image-1”
-    src: figures/drmcspace.jpg
-    caption: “The David Rumsey Map Center at Stanford University Libraries”
-    credit: “Michaela Go”
+  # - id: “image-1”
+  #   src: figures/drmcspace.jpg
+  #   caption: “The David Rumsey Map Center at Stanford University Libraries”
+  #   credit: “Michaela Go”
