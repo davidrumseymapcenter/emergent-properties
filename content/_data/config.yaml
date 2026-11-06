@@ -1,0 +1,90 @@
+# https://kb.daisy.org/publishing/docs/metadata/schema.org/index.html
+accessibilityMetadata:
+  accessibilitySummary: This publication meets baseline accessibility standards
+  accessMode:
+    - textual
+    - visual 
+  accessModeSufficient:
+    - textual,visual
+    - textual
+  accessibilityFeature:
+    - unknown
+  accessibilityHazard:
+    - unknown
+
+accordion:
+  controls: arrow # arrow | plus-minus
+  copyButton:
+    ariaLabel: Copy page section link to clipboard
+    successText: Copied page section link to clipboard
+    symbol: §
+  globalControls:
+    collapseText: Collapse All
+    expandText: Expand All
+
+analytics:
+  googleId: ''
+
+bylineFormat: name-title # initials | name | name-title | string | false
+
+bibliography:
+  displayOnPage: true
+  displayShort: true
+  heading: Bibliography
+
+citations:
+  divider: ', '
+  popupStyle: text # text | icon
+
+entryPage:
+  sideBySide: false
+  objectLinkText: View in Collection
+
+epub:
+  defaultCoverImage: 'static-cover.jpg'
+  outputDir: '_epub'
+
+footnotes:
+  backlinkSymbol: '↩'
+
+figures:
+  assetDir: '/_assets/'
+  defaultLabel: 'Figure' # Displayed in search results when no `label` is defined
+  enableModal: true
+  imageDir: '/_assets/images'
+
+licenseIcons: true
+
+localization:
+  defaultLocale: en-us
+
+menuType: full # full | brief
+
+navigation:
+  nextButtonText: Next
+  prevButtonText: Back
+
+pageTitle:
+  labelDivider: '. '
+
+pdf:
+  filename: 'emergent_properties_2026'
+  outputDir: '/_assets/downloads' 
+  pagePDF:
+    accessLinks:
+      - header: true 
+        label: 'PDF'
+      - footer: true
+        label: 'Download this page'
+    coverPage: true
+    output: false
+  publicationPDF:
+    output: true
+
+ref:
+  sequenceTransition: 30
+
+searchEnabled: true
+
+tableOfContents:
+  contributorDivider: ' — '

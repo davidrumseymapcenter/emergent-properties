@@ -1,0 +1,70 @@
+---
+classes:
+  - quire-page
+  - quire-acknowledgements
+layout: base.11ty.js
+description: Acknowledgements page built from publication.yaml contributors
+---
+
+{% comment %}
+`credits` (front matter): a list of roles, each naming the people who held it
+by their `id` in publication.yaml, e.g.
+  credits:
+    - role: Curator
+      contributors: [ethornberry]
+Names and job titles are looked up from publication.yaml, so they are only
+ever edited there. A person's title is shown only the first time they appear.
+The page's own text renders below the credits. Styles: custom.css.
+{% endcomment %}
+
+{% pageHeader
+  byline_format=byline_format,
+  image=image,
+  label=label,
+  pageContributors=pageContributors,
+  subtitle=subtitle,
+  title=title,
+  page_pdf_output=page_pdf_output,
+  key=key,
+  outputs=outputs
+%}
+<section class="section quire-page__content">
+  <div class="container">
+    <div class="content">
+      {% if credits %}
+      {%- assign seen = "," -%}
+      <dl class="acknowledgements-credits">
+        {% for credit in credits %}
+        <div class="acknowledgements-credits__item">
+          <dt>{{ credit.role }}</dt>
+          <dd>
+            <ul class="acknowledgements-credits__people">
+              {% for id in credit.contributors %}
+              {%- assign person = publication.contributor | where: "id", id | first -%}
+              {%- assign key = "," | append: id | append: "," -%}
+              <li>
+                <span class="acknowledgements-credits__name">{{ person | fullname }}</span>
+                {%- unless seen contains key %}{% if person.title %}<span class="acknowledgements-credits__title">{{ person.title }}</span>{% endif %}{% endunless %}
+              </li>
+              {%- assign seen = seen | append: id | append: "," -%}
+              {% endfor %}
+            </ul>
+          </dd>
+        </div>
+        {% endfor %}
+      </dl>
+      {% endif %}
+
+      {% if content %}
+      <div class="acknowledgements-text">
+        {{ content }}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+<section class="section quire-page__content">
+  <div class="container">
+    {% pageButtons pagination=pagination %}
+  </div>
+</section>

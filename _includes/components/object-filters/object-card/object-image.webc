@@ -1,0 +1,38 @@
+<figure class="object-card__image" :data-field-name="attribute.name">
+  <img :src="src(attributes)" :alt="alt(attributes)">
+</figure>
+
+<script webc:setup>
+/**
+ * Get object image `alt` from `thumbnail` property
+ */
+const alt = ({ data }) => typeof data.thumbnail === 'object' ? data.thumbnail.alt : '';
+
+/**
+ * Returns the served asset location for this image
+ * accounting for fully qualified asset URLs
+ */
+const assetSrc = (srcPath) => {
+  const regexp = new RegExp(/^(https?:\/\/|\/iiif\/|\\iiif\\)/)
+  const { imageDir } = this.config.figures
+  return regexp.test(srcPath) ? srcPath : `${imageDir}/${srcPath}`
+}
+
+/**
+ * Get object image src from either the thumbnail (preferred) or figures data.
+ */
+const src = ({ data }) => {
+  const { figures, thumbnail } = data;
+  const figure = figures?.find(({ mediaType }) => mediaType === 'image');
+
+  switch (true) {
+   case (thumbnail): 
+      return assetSrc(value)
+   case figure !== undefined:
+      const imagePath = figure.thumbnail ?? figure.src;
+      return assetSrc(imagePath)
+   default: 
+      return '';
+  }
+};
+</script>

@@ -1,0 +1,31 @@
+---
+classes:
+ - landing
+description: Landing page with a framed, centered image, the publication title, and a Next button
+layout: base.11ty.js
+---
+{% comment %}
+Alternative to cover.liquid for content/index.md. Where the cover stretches its
+image edge to edge behind the title, this centers the image whole, at its own
+proportions, so a transparent PNG sits on the page background, with a Next
+button under the title in place of the cover's scroll-down text. Styles are in
+content/_assets/styles/custom.css under `.landing`.
+{% endcomment %}
+
+{% if image %}
+{% assign imagePath = config.figures.imageDir | concat: image | join: '/' %}
+{% endif %}
+
+<section class="landing__hero">
+  {% if image %}
+    <img class="landing__image" src="{{ imagePath }}" alt="{{ image_alt }}" />
+  {% endif %}
+  <h1 class="landing__title" id="page-header-{{ page.filePathStem }}">
+    {{ publication.title | markdownify }}
+    {% if publication.subtitle %}
+      <span class="visually-hidden">: </span>
+      <span class="landing__subtitle">{{ publication.subtitle | markdownify }}</span>
+    {% endif %}
+  </h1>
+  {% pageButtons pagination=pagination %}
+</section>

@@ -1,0 +1,281 @@
+/*
+ * Styles the translated portion of a title, leaving the label and the
+ * original-language title alone. The hook comes from the page's own
+ * front matter, e.g.
+ *   title: "Italia di Tolomeo (_[Ptolemy’s Italy]{.translation}_)"
+ * which markdown-it-bracketed-spans renders as
+ *   <em><span class="translation">…</span></em>
+ * Scoped to the page header so the translation stays unstyled in the
+ * table of contents and elsewhere.
+ */
+.quire-page__header__title .translation {
+  color: #ce6d33;
+}
+/* Back / Next buttons at the bottom of each page */
+
+/* Default (inactive) */
+.quire-contents-buttons li.quire-nav-button.prev {
+  background-color: #ffffff;
+  border-color: #ce6d33;
+}
+.quire-contents-buttons li.quire-nav-button.prev a {
+  color: #ce6d33;
+}
+.quire-contents-buttons li.quire-nav-button.prev svg {
+  fill: #ce6d33;
+}
+
+.quire-contents-buttons li.quire-nav-button.next {
+  background-color: #ce6d33;
+  border-color: #ce6d33;
+}
+.quire-contents-buttons li.quire-nav-button.next a {
+  color: #ffffff;
+}
+.quire-contents-buttons li.quire-nav-button.next svg {
+  fill: #ffffff;
+}
+
+/* Hover. Selectors name .prev/.next so they outrank Quire's own
+ * `li.quire-nav-button.next:hover { ... !important }` rule. */
+.quire-contents-buttons li.quire-nav-button.prev:hover,
+.quire-contents-buttons li.quire-nav-button.next:hover {
+  background-color: #a8541f !important;
+  border-color: #a8541f;
+}
+.quire-contents-buttons li.quire-nav-button.prev:hover a,
+.quire-contents-buttons li.quire-nav-button.next:hover a {
+  color: #ffffff;
+}
+.quire-contents-buttons li.quire-nav-button.prev:hover svg,
+.quire-contents-buttons li.quire-nav-button.next:hover svg {
+  fill: #ffffff;
+}
+
+/* Active (while pressed) and keyboard focus */
+.quire-contents-buttons li.quire-nav-button.prev:active,
+.quire-contents-buttons li.quire-nav-button.next:active,
+.quire-contents-buttons li.quire-nav-button.prev:focus-within,
+.quire-contents-buttons li.quire-nav-button.next:focus-within {
+  background-color: #86421a !important;
+  border-color: #86421a;
+}
+
+/* Current page in the menu. Quire colours it with $accent-color (!important),
+ * which reads as blue on the brown menu; same specificity here, loaded later. */
+.quire-menu .page-item a.active,
+.quire-menu .section-item a.active,
+.quire-menu .page-item a.active *,
+.quire-menu .section-item a.active * {
+  color: #ffffff !important;
+}
+.quire-menu .page-item a.active,
+.quire-menu .section-item a.active {
+  border-left-color: #ffffff;
+}
+
+/* Landing page (_layouts/landing.liquid): the front-matter `image` centered
+ * whole above the title, filling the first screen; text follows the arrow. */
+.landing__hero {
+  /* first screen minus $navbar-height and progress bar */
+  min-height: calc(100vh - 3rem - 2px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem 1rem 3rem;
+  text-align: center;
+}
+.landing__image {
+  display: block;
+  max-width: min(90vw, 1100px);
+  max-height: 55vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+.quire-page .landing__title {
+  margin: 0;
+  font-family: "TeX Gyre Schola", "TeX Gyre Bonum", serif;
+  font-size: 2.75rem;
+  line-height: 1.15;
+  color: #3e6f94;
+}
+.landing__title p {
+  margin: 0;
+}
+.quire-page .landing__subtitle {
+  display: block;
+  margin-top: .5rem;
+  font-size: 1.25rem;
+  font-weight: normal;
+  color: #ce6d33;
+}
+.landing__hero .quire-contents-buttons {
+  padding: 0;
+}
+
+/* Menu accordions (_includes/components/menu/list.js): sections nested under
+ * another section collapse. The title link fills the row so a click on it
+ * navigates; only the arrow, drawn on the summary itself, toggles. */
+.quire-menu .section-item--accordion summary {
+  display: flex;
+  align-items: baseline;
+  gap: .5em;
+  list-style: none;
+  cursor: default;
+}
+.quire-menu .section-item--accordion summary::-webkit-details-marker {
+  display: none;
+}
+.quire-menu .section-item--accordion summary > a {
+  flex: 1;
+}
+.quire-menu .section-item--accordion summary::after {
+  content: "";
+  flex: none;
+  width: .45em;
+  height: .45em;
+  margin-right: .25em;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(-45deg);
+  transition: transform .15s ease;
+  cursor: pointer;
+}
+.quire-menu .section-item--accordion details[open] > summary::after {
+  transform: rotate(45deg);
+}
+.quire-menu .section-item--accordion summary:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+/* Heading-only menu entries (e.g. content/collections.md), given the same
+ * box as the menu's links (Bulma's .menu-list a, plus quire-menu.scss's
+ * negative margin) so they line up and space like their neighbors. */
+.quire-menu .menu-list__heading {
+  display: block;
+  padding: .5em .75em;
+  margin: 0 -.75rem;
+}
+
+/* Section page icon (_layouts/page.liquid `header_image`): floated into the
+ * top left of the text, which wraps around it. */
+.quire-page .content .section-icon {
+  float: left;
+  width: 9rem;
+  height: auto;
+  margin: .35rem 1.5rem .75rem 0;
+}
+@media screen and (max-width: 600px) {
+  .quire-page .content .section-icon {
+    width: 6rem;
+    margin-right: 1rem;
+  }
+}
+/* Keep the float inside the text column when the text is shorter than it */
+.quire-page .content:has(> .section-icon) {
+  display: flow-root;
+}
+
+/* PDF entry image pages: print.scss sets the captions in white for the dark
+ * $print-entry-image-color page; with that page now off-white (variables.scss),
+ * set them in the body text color. Print only, so the screen's image-info
+ * overlay keeps its white on dark. */
+@media print {
+  .quire-entry__image-wrap .q-figure .q-figure__caption,
+  .quire-entry__image-wrap .q-figure .q-figure__caption-embed-link a,
+  .quire-entry__image-wrap .q-figure .q-figure__caption .q-figure__modal-link {
+    color: #443521;
+  }
+}
+
+/* PDF: every page in $off-white. print.scss paints only some named pages
+ * ($print-splash-color, also $off-white) and resets the splash-image pages
+ * to `initial`; this covers the unnamed pages and those resets. */
+@page {
+  background-color: #f8f5f4;
+}
+@page splash-image {
+  background-color: #f8f5f4;
+}
+@page splash-image:left {
+  background-color: #f8f5f4;
+}
+@page splash-image:right {
+  background-color: #f8f5f4;
+}
+@media print {
+  /* catalogue cards are white on screen; let the page color through */
+  .object-cards-list .object-card {
+    background-color: transparent;
+  }
+}
+
+/* Catalogue card titles and arrows in $red (Quire's component default is
+ * #CB3434), darkening on hover like the Back/Next buttons. Selectors carry
+ * the list class to outrank the component's own <style>. */
+.object-cards-list .object-card {
+  color: #ce6d33;
+}
+.object-cards-list .object-card:hover {
+  color: #a8541f;
+}
+.object-cards-list .object-card .arrow {
+  fill: #ce6d33;
+}
+.object-cards-list .object-card:hover .arrow {
+  fill: #a8541f;
+}
+
+/* Acknowledgements (_layouts/acknowledgements.liquid): role credits as a
+ * two-column list with job titles from publication.yaml, then the page text. */
+.quire-acknowledgements .acknowledgements-credits {
+  margin: 0 0 2.5rem;
+  border-top: 1px solid #ce6d33;
+}
+.quire-acknowledgements .acknowledgements-credits__item {
+  display: grid;
+  grid-template-columns: minmax(10rem, 1fr) 2fr;
+  gap: 1.5rem;
+  padding: .6rem 0;
+  border-bottom: 1px solid #e3dcd8;
+}
+.quire-acknowledgements .acknowledgements-credits dt {
+  font-weight: 700;
+  color: #ce6d33;
+}
+.quire-acknowledgements .acknowledgements-credits dd {
+  margin: 0;
+}
+/* Quire's page styles (quire-page.scss, print.scss) give every content list a
+ * diamond marker drawn with li:before and indent the list for it; drop both.
+ * The full Quire selector chain is repeated so these outrank it. */
+.quire-acknowledgements .quire-page__content .container .content ul.acknowledgements-credits__people {
+  list-style: none;
+  margin: 0;
+}
+.quire-acknowledgements .quire-page__content .container .content ul.acknowledgements-credits__people li {
+  margin: 0 0 .35rem;
+}
+.quire-acknowledgements .quire-page__content .container .content ul.acknowledgements-credits__people li::before {
+  content: none;
+}
+.quire-acknowledgements .quire-page__content .container .content ul.acknowledgements-credits__people li:last-child {
+  margin-bottom: 0;
+}
+.quire-acknowledgements .acknowledgements-credits__title::before {
+  content: ", ";
+}
+.quire-acknowledgements .acknowledgements-credits__title {
+  font-size: .875em;
+  opacity: .75;
+}
+@media screen and (max-width: 600px) {
+  .quire-acknowledgements .acknowledgements-credits__item {
+    grid-template-columns: 1fr;
+    gap: .15rem;
+  }
+}

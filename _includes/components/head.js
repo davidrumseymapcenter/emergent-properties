@@ -1,0 +1,85 @@
+import escape from 'html-escape'
+
+/**
+ * Head Tag
+ *
+ * @param      {Object}  eleventyConfig
+ */
+export default function (eleventyConfig) {
+  const analytics = eleventyConfig.getFilter('analytics')
+  const dublinCore = eleventyConfig.getFilter('dublinCore')
+  const jsonld = eleventyConfig.getFilter('jsonld')
+  const opengraph = eleventyConfig.getFilter('opengraph')
+  const removeHTML = eleventyConfig.getFilter('removeHTML')
+  const twitterCard = eleventyConfig.getFilter('twitterCard')
+  const pagefind = eleventyConfig.getFilter('pagefind')
+
+  const { application, publication } = eleventyConfig.globalData
+
+  /**
+   * @param  {Object} params The Whole Dang Data Object, from base.11ty.js
+   */
+  return function (page) {
+    const { abstract, canonicalURL, cover, layout, title } = page
+    const pageTitle = removeHTML(
+      title ? `${title} | ${publication.title}` : publication.title
+    )
+
+    const description = publication.description.full || publication.description.one_line
+
+    const publisherLinks = publication.publisher
+      .filter(({ url }) => url)
+      .map(({ url }) => `<link rel="publisher" href="${url}">`)
+      .join('\n')
+
+    const contributorLinks = publication.contributor
+      .filter(({ url }) => url)
+      .map(({ url }) => `<link rel="author" href="${url}">`)
+      .join('\n')
+
+    const keywords = publication.subject
+      .filter(({ type }) => type === 'keyword')
+      .map(({ name }) => name)
+      .join(', ')
+
+    return `
+      <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="robots" content="index, follow"/>
+
+        <meta name="generator" content="${application.name} ${application.version}" />
+
+        <title>${pageTitle}</title>
+
+        <meta name="description" content="${escape(description)}">
+        <meta name="keywords" content="${escape(keywords)}">
+
+        <link rel="canonical" href="${canonicalURL}">
+        <link rel="version-history" href="${publication.repositoryUrl}">
+
+        <script src="/_assets/javascript/application/canvas-panel-web-components-1.0.68.js" type="module"></script>
+
+        ${publisherLinks}
+
+        ${contributorLinks}
+
+        ${dublinCore()}
+
+        ${opengraph({ page })}
+
+        ${twitterCard({ abstract, cover, layout })}
+
+        ${pagefind({ page, layout })}
+
+        <script type="application/ld+json">${jsonld({ canonicalURL, page })}</script>
+
+        <link rel="icon" href="/_assets/images/icons/favicon.ico" />
+        <link rel="apple-touch-icon" href="/_assets/images/icons/apple-touch-icon.png" />
+
+        ${analytics()}
+      </head>
+    `
+  }
+}

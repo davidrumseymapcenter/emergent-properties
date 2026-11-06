@@ -1,0 +1,229 @@
+# ------------------------------------------------------------------------------
+# Figures
+# ------------------------------------------------------------------------------
+#
+# Image, video, audio, and table resources referenced by id from page frontmatter
+# (`figure:`), object records in objects.yaml (`figure:`), and the `{% figure %}`,
+# `{% figuregroup %}`, and `{% ref %}` shortcodes.
+#
+# Each id must be unique and may only be rendered once in the publication; see
+# content/_data/README.md.
+#
+# Source files live in content/_assets/images/figures/ and `src` is written
+# relative to content/_assets/images/. With `zoom: true` Quire builds its own
+# IIIF tile pyramid and derivatives into _site/iiif/<figure-id>/ at build time,
+# so these are self-hosted rather than streamed from the Stanford repository.
+#
+# Each image was downloaded from the SDR IIIF service recorded in the `source`
+# comment, at `full/!4000,4000/0/default.jpg` (longest edge 4000px). Re-download
+# from that URL to refresh or to fetch a different size.
+#
+# Still to do: `alt` text for every figure.
+
+figure_list:
+  # source: https://stacks.stanford.edu/image/iiif/mv556fd9168%2Fmv556fd9168_00_0001
+  # canvas: https://purl.stanford.edu/mv556fd9168/iiif/canvas/cocina-fileSet-mv556fd9168-mv556fd9168_1
+  - id: "cat-1"
+    src: figures/cat-1.jpg
+    zoom: true
+
+  # fixed
+  # cat. 2: manifest has 146 canvases; this is page 11, "Typus Orbis Terrarum".
+  # source: https://stacks.stanford.edu/image/iiif/hg446zm6747%2F10000011
+  # canvas: https://purl.stanford.edu/np593hr6132/iiif/canvas/cocina-fileSet-hg446zm6747-hg446zm6747_1
+  - id: "cat-2"
+    src: figures/cat-2.jpg
+    zoom: true
+
+  # cat. 3: manifest has 754 canvases; this is page 90, "Vol I (43) Venetia (Venice)".
+  # source: https://stacks.stanford.edu/image/iiif/wk475qx4162%2F12126090
+  # canvas: https://purl.stanford.edu/db076zm5895/iiif/canvas/cocina-fileSet-wk475qx4162-wk475qx4162_1
+  - id: "cat-3"
+    src: figures/cat-3.jpg
+    zoom: true
+
+  # cat. 4: 11621 × 4282 px. Image added locally; source not recorded.
+  - id: "cat-4"
+    src: figures/cat-4.jpg
+    zoom: true
+
+  # cat. 5: 14990 × 661 px. Image added locally; source not recorded.
+  # `region` (x,y,width,height in image pixels) opens the viewer zoomed in on Taiwan.
+  - id: "cat-5"
+    src: figures/cat-5.jpg
+    zoom: true
+    region: "8295,0,1680,661"
+
+  # cat. 6: image added locally; source not recorded.
+  - id: "cat-6"
+    src: figures/cat-6.jpg
+    zoom: true
+
+  # cat. 7: manifest has 15 canvases; this is page 4, "Carta Etnografica. II.".
+  # source: https://stacks.stanford.edu/image/iiif/zb031tf7933%2F2693002
+  # canvas: https://purl.stanford.edu/qf485cq3676/iiif/canvas/cocina-fileSet-zb031tf7933-zb031tf7933_1
+  - id: "cat-7"
+    src: figures/cat-7.jpg
+    zoom: true
+
+  # source: https://stacks.stanford.edu/image/iiif/sy409bk9698%2Fsy409bk9698_05_0001
+  # canvas: https://purl.stanford.edu/sy409bk9698/iiif/canvas/cocina-fileSet-sy409bk9698-sy409bk9698_1
+  - id: "cat-9"
+    src: figures/cat-9.jpg
+    zoom: true
+
+  # source: https://stacks.stanford.edu/image/iiif/dv843cp9178%2F3458000
+  # canvas: https://purl.stanford.edu/dv843cp9178/iiif/canvas/cocina-fileSet-dv843cp9178-dv843cp9178_1
+  - id: "cat-10"
+    src: figures/cat-10.jpg
+    zoom: true
+
+  # cat. 11: image added locally; source not recorded.
+  - id: "cat-11"
+    src: figures/cat-11.jpg
+    zoom: true
+
+  # cat. 12: image added locally; source not recorded.
+  - id: "cat-12"
+    src: figures/cat-12.jpg
+    zoom: true
+
+  # source: https://stacks.stanford.edu/image/iiif/vz743gy9625%2Fvz743gy9625_0001
+  # canvas: https://purl.stanford.edu/vz743gy9625/iiif/canvas/cocina-fileSet-vz743gy9625-vz743gy9625_1
+  - id: "cat-13"
+    src: figures/cat-13.jpg
+    zoom: true
+
+  # source: https://stacks.stanford.edu/image/iiif/qw436vd3442%2F3451000
+  # canvas: https://purl.stanford.edu/qw436vd3442/iiif/canvas/cocina-fileSet-qw436vd3442-qw436vd3442_1
+  - id: "cat-14"
+    src: figures/cat-14.jpg
+    zoom: true
+
+  # cat. 15: image added locally; source not recorded.
+  - id: "cat-15"
+    src: figures/cat-15.jpg
+    zoom: true
+
+  # cat. 16: image added locally; source not recorded.
+  - id: "cat-16"
+    src: figures/cat-16.jpg
+    zoom: true
+
+  # source: https://stacks.stanford.edu/image/iiif/wn353bn6740%2Fwn353bn6740_0001
+  # canvas: https://purl.stanford.edu/wn353bn6740/iiif/canvas/cocina-fileSet-wn353bn6740-wn353bn6740_1
+  - id: "cat-17"
+    src: figures/cat-17.jpg
+    zoom: true
+
+  # cat. 19: manifest has 2 canvases; this is page 1 (confirmed).
+  # source: https://stacks.stanford.edu/image/iiif/jv860xw2416%2Fjv860xw2416_0001
+  # canvas: https://purl.stanford.edu/jv860xw2416/iiif/canvas/cocina-fileSet-jv860xw2416-jv860xw2416_1
+  - id: "cat-19"
+    src: figures/cat-19.jpg
+    zoom: true
+
+  # source: https://stacks.stanford.edu/image/iiif/cg079yw6169%2FAM_0070
+  # canvas: https://purl.stanford.edu/cg079yw6169/iiif/canvas/cocina-fileSet-cg079yw6169-19f58952-e039-479d-aaaf-7fa2c240c247
+  - id: "cat-20"
+    src: figures/cat-20.jpg
+    zoom: true
+
+  # cat. 21: manifest has 2 canvases; this is page 1 (confirmed).
+  # source: https://stacks.stanford.edu/image/iiif/cv760nn3650%2Fcv760nn3650_0001
+  # canvas: https://purl.stanford.edu/cv760nn3650/iiif/canvas/cocina-fileSet-cv760nn3650-cv760nn3650_1
+  - id: "cat-21"
+    src: figures/cat-21.jpg
+    zoom: true
+
+  # source: https://stacks.stanford.edu/image/iiif/hx272fg8982%2Fhx272fg8982_0001
+  # canvas: https://purl.stanford.edu/hx272fg8982/iiif/canvas/cocina-fileSet-hx272fg8982-hx272fg8982_1
+  - id: "cat-22"
+    src: figures/cat-22.jpg
+    zoom: true
+
+  # source: https://stacks.stanford.edu/image/iiif/kr134gt2759%2F12469000
+  # canvas: https://purl.stanford.edu/kr134gt2759/iiif/canvas/cocina-fileSet-kr134gt2759-kr134gt2759_1
+  - id: "cat-23"
+    src: figures/cat-23.jpg
+    zoom: true
+
+  # cat. 25: image added locally; source not recorded.
+  - id: "cat-25"
+    src: figures/cat-25.jpg
+    zoom: true
+
+  # cat. 26: image added locally; source not recorded.
+  - id: "cat-26"
+    src: figures/cat-26.jpg
+    zoom: true
+
+  # cat. 27: image added locally; source not recorded.
+  - id: "cat-27"
+    src: figures/cat-27.jpg
+    zoom: true
+
+  # cat. 28: image added locally; source not recorded.
+  - id: "cat-28"
+    src: figures/cat-28.jpg
+    zoom: true
+
+  # cat. 29: image added locally; source not recorded.
+  - id: "cat-29"
+    src: figures/cat-29.jpg
+    zoom: true
+
+  # cat. 31: image added locally; source not recorded.
+  - id: "cat-31"
+    src: figures/cat-31.jpg
+    zoom: true
+
+  # source: https://stacks.stanford.edu/image/iiif/nz845pt4966%2F11362000
+  # canvas: https://purl.stanford.edu/nz845pt4966/iiif/canvas/cocina-fileSet-nz845pt4966-nz845pt4966_1
+  - id: "cat-33"
+    src: figures/cat-33.jpg
+    zoom: true
+
+  # source: https://stacks.stanford.edu/image/iiif/jr928qs9123%2Fjr928qs9123_0001
+  # canvas: https://purl.stanford.edu/jr928qs9123/iiif/canvas/cocina-fileSet-jr928qs9123-jr928qs9123_1
+  - id: "cat-38"
+    src: figures/cat-38.jpg
+    zoom: true
+
+  # source: https://stacks.stanford.edu/image/iiif/kx021sb6886%2Fkx021sb6886_0001
+  # canvas: https://purl.stanford.edu/kx021sb6886/iiif/canvas/cocina-fileSet-kx021sb6886-kx021sb6886_1
+  - id: "cat-39"
+    src: figures/cat-39.jpg
+    zoom: true
+
+  # cat. 40: two-page spread: log page and map "From Esquimalt to San Francisco".
+  # Image added locally; source not recorded.
+  - id: "cat-40"
+    src: figures/cat-40.jpg
+    zoom: true
+
+  # cat. 41: image added locally; source not recorded.
+  - id: "cat-41"
+    src: figures/cat-41.jpg
+    zoom: true
+
+  # cat. 42: two-page spread (bound top to bottom): survey notes and gridded sketch.
+  # Image added locally; source not recorded.
+  - id: "cat-42"
+    src: figures/cat-42.jpg
+    zoom: true
+
+  # cat. 43: image added locally; source not recorded.
+  - id: "cat-43"
+    src: figures/cat-43.jpg
+    zoom: true
+
+  # cat. 44: image added locally; source not recorded.
+  - id: "cat-44"
+    src: figures/cat-44.jpg
+    zoom: true
+
+  - id: “image-1”
+    src: figures/drmcspace.jpg
+    caption: “The David Rumsey Map Center at Stanford University Libraries”
+    credit: “Michaela Go”

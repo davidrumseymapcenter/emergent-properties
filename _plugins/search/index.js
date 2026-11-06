@@ -1,0 +1,63 @@
+import SearchIndex from './search.js'
+import path from 'node:path'
+
+const SEARCH_INDEX_DIR = '_search'
+
+/**
+ * An Eleventy plugin for full-text search using Pagefind
+ *
+ * @param      {Object}  eleventyConfig  eleventy configuration
+ * @param      {Object}  collections     eleventy collections
+ * @param      {Object}  options
+ * @param      {boolean}  options.indexFigures
+ *                        Configures if figures should be indexed separately
+ * @param      {Array}  options.excludeSelectors
+ *                        CSS selectors to exclude from search index
+ * @param      {string}  options.searchIndexDir
+ *                        The directory name for outputing the search index
+ *
+ */
+export default async function (eleventyConfig, collections, {
+  indexFigures = true,
+  excludeSelectors = [],
+  searchIndexDir = SEARCH_INDEX_DIR
+} = {}) {
+  if (eleventyConfig.globalData.config?.searchEnabled === false) return
+
+  /**
+   * Create a new search index.
+   */
+  const index = new SearchIndex(eleventyConfig, {
+    excludeSelectors
+  })
+  await index.create()
+
+  eleventyConfig.on('eleventy.after', async ({ results }) => {
+    const { outputDir, publicDir } = eleventyConfig.globalData.directoryConfig
+
+    /**
+     * Adds each results HTML content to the search index.
+     */
+    await Promise.all(results.map(async ({ url, content }) => {
+      const page = collections.html.find(({ url: pageUrl }) => url === pageUrl)
+      if (!page || page.data?.search === false) return
+      const { canonicalURL } = page.data
+      await index.addPageRecord({ url: canonicalURL, content })
+    }))
+
+    /**
+     * Add figures from each page to the search index.
+     */
+    if (indexFigures) {
+      await Promise.all(collections.html.map(async ({ data }) => {
+        await index.addFiguresFromPage(data)
+      }))
+    }
+
+    /**
+     * Output the search index and compiled pagefind.js library to a _search directory.
+     */
+    const outputPath = path.join(publicDir || outputDir, searchIndexDir)
+    await index.write(outputPath)
+  })
+}

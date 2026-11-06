@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="{{ publication.language }}">
+  <head>
+    <title>{{ publication.title }}</title>
+    <link rel="stylesheet" href="pdf.css" />
+  </head>
+  <body>
+  {% comment %}
+  This template renders the `pages` property of the data passed to it. 
+  `pages` is an array of `section` elements from each PDF-having page in the publication.
+  {% endcomment %}
+
+  {% icons %}
+  {% iconscc %}
+
+  {% for page in pages %}
+    {{ page.sectionElement }}
+  {% endfor %}
+
+  </body>
+</html>
+
+
+

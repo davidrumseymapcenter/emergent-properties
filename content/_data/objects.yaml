@@ -1,0 +1,507 @@
+object_filters:
+  - artist
+  - year
+
+object_card:
+  - thumbnail
+  - id
+  - title
+
+object_display_order:
+  - artist
+  - place
+  - year
+  - dimensions
+  - medium
+  - location
+
+object_list:
+  # ---------------------------------------------------------------------------
+  # Six Centuries of Mapmaking
+  # (cat. 6 is numbered here but displayed with Measuring and Mapping the World)
+  # ---------------------------------------------------------------------------
+
+  - id: "1"
+    title: "[Italia di Tolomeo] (*[Ptolemy’s Italy]*)"
+    artist: Johannes Schnitzer
+    place: Ulm
+    year: "1482"
+    dimensions: "35 × 54 cm (13.8 × 21.3 in.)"
+    location: Susan & Benjamin Caughey Map Collection
+    link: https://purl.stanford.edu/mv556fd9168
+    note: Facsimile
+    figure:
+      - id: "cat-1"
+
+  - id: "2"
+    title: "Typus Orbis Terrarum (*Image of the World*)"
+    artist: Abraham Ortelius
+    place: Antwerp
+    year: "1570"
+    dimensions: "30 × 42 cm (11.8 × 16.5 in.)"
+    location: David Rumsey Map Collection
+    link: https://purl.stanford.edu/np593hr6132
+    figure:
+      - id: "cat-2"
+
+  - id: "3"
+    title: "Venetia (*Venice*)"
+    artist: Georg Braun and Frans Hogenberg
+    place: Cologne
+    year: "1572"
+    dimensions: "34 × 48 cm (13.4 × 18.9 in.)"
+    location: David Rumsey Map Collection
+    link: https://purl.stanford.edu/db076zm5895
+    figure:
+      - id: "cat-3"
+
+  - id: "4"
+    title: "Composite: 48 Globe Gores, 2 Polar Calottes, Celestial Globe"
+    artist: Vincenzo Coronelli
+    place: Venice
+    year: "1698"
+    dimensions: "26 × 40 cm (10.2 × 15.7 in.)"
+    location: David Rumsey Map Collection
+    link: https://searchworks.stanford.edu/view/14060805
+    figure:
+      - id: "cat-4"
+
+  - id: "5"
+    title: "Haikou Quantu 海口全圖 (*Complete Map of Sea Ports*)"
+    artist: Author unknown
+    year: "1800"
+    dimensions: "30 × 665 cm (11.8 × 261.8 in.)"
+    location: David Rumsey Map Collection
+    link: https://searchworks.stanford.edu/view/14174036
+    note: A 1:2 scale facsimile of the map can be seen at the bottom of this case.
+    figure:
+      - id: "cat-5"
+
+  - id: "7"
+    title: "Carta Etnografica. II. (*Ethnographic Map II*)"
+    artist: Antonio García Cubas
+    place: Mexico
+    year: "1885"
+    dimensions: "55 × 69 cm (21.7 × 27.2 in.)"
+    location: David Rumsey Map Collection
+    link: https://purl.stanford.edu/qf485cq3676
+    figure:
+      - id: "cat-7"
+
+  - id: "8"
+    title: Americans of Negro Lineage
+    artist: Louise E. Jefferson
+    place: New York
+    year: "1946"
+    dimensions: "73 × 95 cm (28.7 × 37.4 in.)"
+    location: David Rumsey Map Collection
+    link: https://purl.stanford.edu/cy874bv0553
+
+  # ---------------------------------------------------------------------------
+  # Changing California
+  # ---------------------------------------------------------------------------
+
+  - id: "9"
+    title: The North part of America conteyning Newfoundland, New England,
+      Virginia, Florida, New Spaine and Nova Francia, with ye riche Iles of
+      Hispaniola, Cuba, Jamaica, and Porto Rieco, on the south, and upon ye
+      west the large and goodly island of California
+    artist: Henry Briggs
+    place: London
+    year: "1625"
+    dimensions: "27 × 34 cm (10.6 × 13.4 in.)"
+    location: The Glen McLaughlin Map Collection of California as an Island
+    link: https://purl.stanford.edu/sy409bk9698
+    figure:
+      - id: "cat-9"
+
+  - id: "10"
+    title: "Gold and Quicksilver District of California, 1848"
+    artist: Edward Otho Cresap Ord
+    place: Washington, D.C.
+    year: "1848"
+    dimensions: "55 × 39 cm (21.7 × 15.4 in.)"
+    location: David Rumsey Map Collection
+    link: https://purl.stanford.edu/dv843cp9178
+    figure:
+      - id: "cat-10"
+
+  - id: "11"
+    title: "A new map of Texas, Oregon and California with the regions
+      adjoining: Compiled from the most recent authorities"
+    artist: Samuel Augustus Mitchell
+    place: Philadelphia
+    year: "1849"
+    dimensions: "57 × 52 cm (22.4 × 20.5 in.)"
+    location: David Rumsey Map Collection
+    link: https://searchworks.stanford.edu/view/12374411
+    figure:
+      - id: "cat-11"
+
+  - id: "12"
+    title: "Карта сиeверо западного берега Америки от ширины 39° до 44°
+      исправленнаиa Колониальными мореходцами (*Map of the northwest coast of
+      America from latitude 39° to 44° corrected by Colonial mariners*)"
+    artist: Mikhail Dmitrievich Tebenkov
+    place: Sitka
+    year: "1848"
+    dimensions: "54 × 43 cm (21.3 × 16.9 in.)"
+    location: David Rumsey Map Collection
+    link: https://searchworks.stanford.edu/view/in00000174352
+    figure:
+      - id: "cat-12"
+
+  - id: "13"
+    title: Plat of the Rancho el Potrero de Santa Clara
+    artist: James W. Mandeville
+    year: "1861"
+    dimensions: "48 × 37 cm (18.9 × 14.6 in.)"
+    link: https://purl.stanford.edu/vz743gy9625
+    figure:
+      - id: "cat-13"
+
+  - id: "14"
+    title: "Los Angeles - San Bernardino Basin, circa 1880"
+    artist: William Hammond Hall
+    year: "[1880]"
+    dimensions: "93 × 147 cm (36.6 × 57.9 in.)"
+    location: David Rumsey Map Collection
+    link: https://purl.stanford.edu/qw436vd3442
+    figure:
+      - id: "cat-14"
+
+  - id: "15"
+    title: "Mei guo san fan shi hua qiao qu: xiang xi tu (*Map of San Francisco
+      Chinatown*)"
+    artist: J.P. Wong
+    place: San Francisco
+    year: "1929"
+    dimensions: "47 × 67 cm (18.5 × 26.4 in.)"
+    location: David Rumsey Map Collection
+    link: https://searchworks.stanford.edu/view/13340584
+    figure:
+      - id: "cat-15"
+
+  - id: "16"
+    title: "Geographical Distribution Japanese Population. United States: 1940"
+    artist: United States Office of War Information
+    place: Washington, D.C.
+    year: "1943"
+    dimensions: "15 × 23 cm (5.9 × 9.1 in.)"
+    location: David Rumsey Map Collection
+    link: https://searchworks.stanford.edu/view/in00000173924
+    figure:
+      - id: "cat-16"
+
+  - id: "17"
+    title: "[Map of Tule Lake Relocation Center]"
+    artist: Tulean Dispatch Daily
+    place: Newell, California
+    year: "1943"
+    dimensions: "21.6 × 36 cm (8.5 × 14.2 in.)"
+    link: https://purl.stanford.edu/wn353bn6740
+    figure:
+      - id: "cat-17"
+
+  - id: "18"
+    title: California
+    artist: David Schiller
+    place: San Jose
+    year: "1968"
+    dimensions: "95 × 71 cm (37.4 × 28 in.)"
+    location: David Rumsey Map Collection
+    link: https://purl.stanford.edu/dt929br0440
+
+  # ---------------------------------------------------------------------------
+  # Mapping Africa: Colonial Views to Local Narratives
+  # ---------------------------------------------------------------------------
+
+  - id: "19"
+    title: "Africae tabula nova (*New map of Africa*)"
+    artist: Abraham Ortelius
+    place: Antwerp
+    year: "1570"
+    dimensions: "37.5 × 51 cm (14.8 × 20.1 in.)"
+    location: Louis O’Neill Collection
+    link: https://purl.stanford.edu/jv860xw2416
+    figure:
+      - id: "cat-19"
+
+  - id: "20"
+    title: Coast of Africa from the Straits of Gibraltar to Cabo Verde
+    artist: Aaron Arrowsmith
+    place: London
+    year: "1803"
+    dimensions: "40 × 25.5 cm (15.7 × 10 in.)"
+    location: Dr. Oscar I. Norwich collection of maps of Africa and its islands
+    link: https://purl.stanford.edu/cg079yw6169
+    figure:
+      - id: "cat-20"
+
+  - id: "21"
+    title: West Africa
+    artist: Kirkwood & Sons
+    place: Edinburgh
+    year: "1820"
+    dimensions: "33 × 27 cm (13 × 10.6 in.)"
+    link: https://purl.stanford.edu/cv760nn3650
+    figure:
+      - id: "cat-21"
+
+  - id: "22"
+    title: "Afrique: Congo et Angola (*Africa: Congo and Angola*)"
+    artist: Philippe Vandermaelen
+    place: Brussels
+    year: "1827"
+    dimensions: "37 × 53 cm (14.6 × 20.9 in.)"
+    location: Louis O’Neill Collection
+    link: https://purl.stanford.edu/hx272fg8982
+    figure:
+      - id: "cat-22"
+
+  - id: "23"
+    title: "[South Africa]"
+    artist: M. Henry Hargreaves
+    place: Manchester
+    year: "1900"
+    dimensions: "63 × 93 cm (24.8 × 36.6 in.)"
+    location: David Rumsey Map Collection
+    link: https://purl.stanford.edu/kr134gt2759
+    figure:
+      - id: "cat-23"
+
+  - id: "24"
+    title: "Iwo-oorun Alkebu-lan (*West Africa*)"
+    artist: Nikolaj Jesper Cyon
+    place: Stockholm
+    year: "2024"
+    dimensions: "63 × 92 cm (24.8 × 36.2 in.)"
+    link: https://searchworks.stanford.edu/view/in00000870297
+
+  # ---------------------------------------------------------------------------
+  # Data Visualization Beyond the Map
+  # ---------------------------------------------------------------------------
+
+  - id: "25"
+    title: Exports & Imports to and from all North - America.
+    artist: William Playfair
+    place: London
+    year: "1801"
+    dimensions: "10 × 17 cm (3.9 × 6.7 in.)"
+    location: David Rumsey Map Collection
+    link: https://searchworks.stanford.edu/view/in00000173907
+    figure:
+      - id: "cat-25"
+
+  - id: "26"
+    title: Path of the Balloon over London (at Night)
+    artist: James Glaisher
+    place: London
+    year: "1871"
+    dimensions: "18 × 27 cm (7.1 × 10.6 in.)"
+    location: David Rumsey Map Collection
+    link: https://searchworks.stanford.edu/view/in00000174026
+    figure:
+      - id: "cat-26"
+
+  - id: "27"
+    title: Presidential Elections
+    artist: Walter Houghton
+    place: Indianapolis
+    year: "1880"
+    dimensions: "34 × 142 cm (13.4 × 55.9 in.)"
+    location: David Rumsey Map Collection
+    link: https://searchworks.stanford.edu/view/14309044
+    figure:
+      - id: "cat-27"
+
+  - id: "28"
+    title: "Industria delle conserve alimentari (*Food canning industry*)"
+    artist: Confederazione generale dell’industria italiana
+    place: Rome
+    year: "1929"
+    dimensions: "22 × 32 cm (8.7 × 12.6 in.)"
+    location: David Rumsey Map Collection
+    link: https://searchworks.stanford.edu/view/in00000173934
+    figure:
+      - id: "cat-28"
+
+  - id: "29"
+    title: "Left: ABTOБУCHAЯ CETЬ (*Bus network*); right: TPOЛЛEЙБУCHAЯ CETЬ
+      (*Trolleybus network*)"
+    artist: Vsesoiuznyĭ nauchno-izdatelʹskiĭ institut izobrazitelʹnoĭ
+      statistiki (*All-Union Scientific and Publishing Institute of Pictorial
+      Statistics*)
+    place: Moscow
+    year: "1938"
+    dimensions: "35 × 35 cm (13.8 × 13.8 in.)"
+    location: David Rumsey Map Collection
+    link: https://searchworks.stanford.edu/view/in00000174085
+    figure:
+      - id: "cat-29"
+
+  - id: "30"
+    title: Cross Sections through California
+    artist: RJ Andrews
+    place: San Francisco
+    year: "2020"
+    dimensions: "72 × 25 cm (28.3 × 9.8 in.)"
+    location: David Rumsey Map Collection
+    link: https://searchworks.stanford.edu/view/14309017
+
+  - id: "31"
+    title: "Hohen Charte oder bildlich vergleichende Ubersicht der bedeutendsten Berge (*Elevational Chart, or a Pictorial Comparative Overview of the Most Significant Mountains*)"
+    artist: Carl Ferdinand Weiland
+    place: Weimar
+    year: "1820"
+    dimensions: "63 × 50 cm (24.8 × 19.7 in.)"
+    location: David Rumsey Map Collection
+    link: https://searchworks.stanford.edu/view/11523753
+    figure:
+      - id: "cat-31"
+
+  # ---------------------------------------------------------------------------
+  # Unconventional Cartography: Counter-mapping and Artists’ Maps
+  # ---------------------------------------------------------------------------
+
+  - id: "32"
+    title: "[Map Projections]"
+    artist: Agnes Denes
+    place: Cambridge
+    year: "1978"
+    dimensions: "28 × 21 cm (11 × 8.3 in.)"
+    location: David Rumsey Map Collection
+    link: https://www.davidrumsey.com/luna/servlet/s/o2mwvh
+
+  - id: "33"
+    title: Map of Greenwich Village made for the Whitney Studio Club
+    artist: Kaj Klitgaard and William Edwin Rudge II
+    place: New York
+    year: "1920"
+    dimensions: "59 × 75 cm (23.2 × 29.5 in.)"
+    location: David Rumsey Map Collection
+    link: https://purl.stanford.edu/nz845pt4966
+    figure:
+      - id: "cat-33"
+
+  - id: "34"
+    title: Map to Eric’s Place in Muir Beach
+    artist: Robert Crumb
+    year: "1972"
+    dimensions: "36 × 28 cm (14.2 × 11 in.)"
+    location: David Rumsey Map Collection
+    link: https://searchworks.stanford.edu/view/14310101
+
+  - id: "35"
+    title: "A Cultural Map: Southeast San Francisco"
+    artist: Kate Connell, Oscar Melara, and Sofía Vivanco Airaghi
+    place: San Francisco
+    year: "2017"
+    dimensions: "30 × 40 cm (11.8 × 15.7 in.)"
+    location: David Rumsey Map Collection
+    link: https://searchworks.stanford.edu/view/13420162
+
+  - id: "36"
+    title: Swamp then lake now
+    artist: Veronica Graham
+    place: Oakland
+    year: "2023"
+    dimensions: "40.8 × 27 cm (16.1 × 10.6 in.)"
+    link: https://searchworks.stanford.edu/view/in00000087304
+
+  - id: "37"
+    title: Land of Opportunity
+    artist: Connie Zheng
+    place: San Francisco
+    year: "2022"
+    dimensions: "213 × 213 cm (83.9 × 83.9 in.)"
+    location: David Rumsey Map Collection
+    link: https://searchworks.stanford.edu/view/in00000084241
+
+  # ---------------------------------------------------------------------------
+  # Measuring and Mapping the World
+  # ---------------------------------------------------------------------------
+
+  - id: "38"
+    title: "Novum orbis terrarum schema, in plano sic descriptum, ut graduumtum
+      circa polos dilatatio, tum circa aequatorem coarctatio excludatur (*A new
+      diagram of the world, drawn on a flat surface in such a way that both the
+      stretching of degrees near the poles and the crowding of degrees near the
+      equator are avoided*)"
+    artist: Daniel Angelocrator
+    place: Frankfurt
+    year: "1628"
+    dimensions: "31.9 × 55.6 cm (12.6 × 21.9 in.)"
+    link: https://purl.stanford.edu/jr928qs9123
+    figure:
+      - id: "cat-38"
+
+  - id: "39"
+    title: "Essay d’une nouvelle carte de L’Amerique Meridionale (*Draft of a
+      new map of South America*)"
+    artist: Author unknown
+    year: "1740"
+    dimensions: "88.8 × 56.2 cm (35 × 22.1 in.)"
+    link: https://purl.stanford.edu/kx021sb6886
+    figure:
+      - id: "cat-39"
+
+  - id: "6"
+    title: Synopsis plate shewing some of the principal characters used in mapping
+    artist: Benjamin P. Wilme
+    place: London
+    year: "1841"
+    dimensions: "22 × 28 cm (8.7 × 11 in.)"
+    location: David Rumsey Map Collection
+    link: https://searchworks.stanford.edu/view/in00000173897
+    figure:
+      - id: "cat-6"
+
+  - id: "40"
+    title: "Log of H.M.S. “Swiftshure”"
+    artist: C. F. Henderson
+    year: "1884"
+    dimensions: "33 × 20 cm (13 × 7.9 in.)"
+    location: David Rumsey Map Collection
+    link: https://purl.stanford.edu/kf257mt7051
+    figure:
+      - id: "cat-40"
+
+  - id: "41"
+    title: "[Cary’s quintant]"
+    artist: William Cary
+    place: London
+    year: "1885"
+    location: Paul Saffo Cartographic Instrument Collection
+    link: https://searchworks.stanford.edu/view/11892827
+    figure:
+      - id: "cat-41"
+
+  - id: "42"
+    title: "[Manuscript survey journal of Gilbert Thompson, Wheeler Survey]"
+    artist: Gilbert Thompson
+    year: "1878"
+    link: https://purl.stanford.edu/gw760ks1946
+    figure:
+      - id: "cat-42"
+
+  - id: "43"
+    title: Brunton compass
+    artist: Daniel W. Brunton
+    place: Denver
+    year: "1904"
+    location: Paul Saffo Cartographic Instrument Collection
+    link: https://searchworks.stanford.edu/view/11892864
+    figure:
+      - id: "cat-43"
+
+  - id: "44"
+    title: Map of the Public Surveys in California, 1854
+    artist: U.S. General Land Office
+    place: Philadelphia
+    year: "1854"
+    dimensions: "52 x 119 cm (20.5 × 46.9 in.)"
+    location: David Rumsey Map Collection
+    link: https://searchworks.stanford.edu/view/gk107fr4385
+    figure:
+      - id: "cat-44"

@@ -1,0 +1,193 @@
+# ------------------------------------------------------------------------------
+
+# ==============================================================================
+# Publication.yml
+# ------------------------------------------------------------------------------
+#
+# This file houses the bibliographic info and general metadata for your digital
+# publication.
+
+# ------------------------------------------------------------------------------
+# The publication's base URL, i.e. 'https://www.my-publication.org'
+url: "http://localhost:8080"
+
+# ------------------------------------------------------------------------------
+# Title & Description
+title: Emergent Properties
+subtitle: Decennial Reflections on Collections of the David Rumsey Map Center
+reading_line:
+short_title:
+
+description:
+  one_line:
+  full: "The collections of the David Rumsey Map Center have been shaped by a decade of use and scholarship. As certain materials have resonated with this generation of students, instructors, and researchers, we focus our attention and identify related collections, defining them as distinct clusters within the larger archive. These subsets have in turn defined the David Rumsey Map Center as distinctive, and have set Stanford’s collections apart. As a whole, the collection is vast and not bounded by geography, spanning the 15th century to the present. But within that expanse are specific cohesive areas of strength that have added lasting value to campus and beyond. These clusters emerge through the ways in which we make collections available."
+
+# ------------------------------------------------------------------------------
+# Publication Details
+# ------------------------------------------------------------------------------
+
+pub_date: 2026-11-06 # YYYY-MM-DD
+language: en
+pub_type: other # book | journal-periodical | other
+
+identifier:
+  isbn:
+
+publisher:
+  - name: David Rumsey Map Center, Stanford University Libraries
+    location: Stanford, California
+    url:
+      # logo: logo-getty.png
+
+# ------------------------------------------------------------------------------
+# Contributors
+# ------------------------------------------------------------------------------
+
+contributor_as_it_appears:
+
+contributor:
+  - id: ethornberry
+    type: secondary
+    first_name: Evan
+    last_name: Thornberry
+    title: Head Librarian and Curator
+    affiliation: David Rumsey Map Center, Stanford University Libraries
+    # bio:
+    # url:
+    # image: contributors/
+  - id: kllarsen
+    type: secondary
+    first_name: Kristina
+    last_name: Larsen
+    title: Associate Curator
+    affiliation: David Rumsey Map Center, Stanford University Libraries
+    # bio:
+    # url:
+    # image: contributors/
+  - id: lswenson
+    type: secondary
+    first_name: Laura
+    last_name: Swenson
+    title: Operations Manager
+    affiliation: David Rumsey Map Center, Stanford University Libraries
+    # bio:
+    # url:
+    # image: contributors/
+  - id: lkrueger
+    type: project-team
+    first_name: Laura
+    last_name: Krueger
+    title: Cartographic Metadata Librarian
+    affiliation: David Rumsey Map Center, Stanford University Libraries
+    # bio:
+    # url:
+    # image: contributors/
+  - id: nedorn
+    type: project-team
+    first_name: Niles
+    last_name: Dorn
+    title: Cartographic Collections and Technology Specialist
+    affiliation: David Rumsey Map Center, Stanford University Libraries
+    # bio:
+    # url:
+    # image: contributors/
+
+# ------------------------------------------------------------------------------
+# Copright & License
+# ------------------------------------------------------------------------------
+
+copyright: © 2026 David Rumsey Map Center, Stanford University Libraries.
+
+license:
+  name: Creative Commons Attribution 4.0 International License
+  abbreviation: CC BY
+  url: https://creativecommons.org/licenses/by/4.0/
+  scope: full # full | text-only | some-exceptions
+
+# ------------------------------------------------------------------------------
+# Formats, Resources & Links
+# ------------------------------------------------------------------------------
+
+resource_link:
+  - type: other-format
+    name: PDF
+    media_type: application/pdf
+    link_relation: alternate
+    url: /_assets/downloads/emergent_properties_2026.pdf
+  # - type: other-format
+  #   name: EPUB
+  #   media_type: application/epub+zip
+  #   link_relation: alternate
+  #   url: /_assets/downloads/emergent_properties_2026.epub
+  # - type: footer-link
+  #   name: About
+  #   link_relation: about
+  #   url: /about/
+  # - type: footer-link
+  #   name: Privacy Policy
+  #   link_relation: privacy-policy
+  #   url:
+  # - type: footer-link
+  #   name: Terms of Use
+  #   link_relation: terms-of-service
+  #   url:
+
+# ------------------------------------------------------------------------------
+# Subjects
+# ------------------------------------------------------------------------------
+
+# Quire reads `type: keyword` one per entry (into the keywords meta tag and
+# JSON-LD); every entry's `name` also goes out as a dcterms.subject.
+subject:
+  - type: bisac
+    name: REFERENCE / Atlases, Gazetteers & Maps
+    identifier: REF002000
+  - type: bisac
+    name: HISTORY / Historical Geography
+    identifier: HIS052000
+  - type: keyword
+    name: maps
+  - type: keyword
+    name: cartography
+  - type: keyword
+    name: history of cartography
+  - type: keyword
+    name: map collections
+  - type: keyword
+    name: David Rumsey Map Center
+  - type: keyword
+    name: Stanford University Libraries
+  - type: keyword
+    name: California
+  - type: keyword
+    name: Africa
+  - type: keyword
+    name: data visualization
+  - type: keyword
+    name: counter-mapping
+  - type: keyword
+    name: artists' maps
+  - type: keyword
+    name: surveying
+  - type: keyword
+    name: geomatics
+  - type: getty
+    name: maps
+  - type: getty
+    name: cartography
+
+# ------------------------------------------------------------------------------
+# Revision History
+# ------------------------------------------------------------------------------
+
+revision_history:
+  - date:
+    summary:
+
+repository_url:
+
+# ------------------------------------------------------------------------------
+# Promo Image
+# ------------------------------------------------------------------------------
+
+promo_image: california.png
