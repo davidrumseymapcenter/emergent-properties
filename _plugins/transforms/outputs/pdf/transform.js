@@ -72,11 +72,17 @@ export default function (eleventyConfig, collections, content) {
    * @param      {HTMLElement}  element
    */
   const transformRelativeLinks = (element) => {
+    const urlPath = eleventyConfig.globalData.publication.pathname
     const nodes = element.querySelectorAll('a:not(.footnote-backref, .footnote-ref-anchor)')
     nodes.forEach((a) => {
-      const url = a.getAttribute('href')
+      let url = a.getAttribute('href')
 
       const regex = /https?:\/\//
+      // Strip the deploy path prefix (e.g. `/emergent-properties/`) so link targets
+      // match section ids, which are derived from prefix-less page URLs
+      if (!regex.test(url) && urlPath && urlPath !== '/' && url.startsWith(urlPath)) {
+        url = '/' + url.substr(urlPath.length)
+      }
       const href = regex.test(url) ? url : slugify(`page-${url}`).replace(/^([^#])/, '#$1')
 
       a.setAttribute('href', href)
