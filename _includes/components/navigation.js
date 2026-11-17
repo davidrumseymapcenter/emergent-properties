@@ -153,16 +153,16 @@ export default function (eleventyConfig) {
               class="quire-navbar-button menu-button"
               id="quire-controls-menu-button"
               onclick="toggleMenu()"
-              aria-expanded="true"
-              aria-controls="quire-menu"
+              aria-expanded="false"
+              aria-controls="site-menu"
               tabindex="2"
             >
-              <svg data-outputs-exclude="epub,pdf">
+              <svg data-outputs-exclude="epub,pdf" aria-hidden="true" focusable="false">
                 <switch>
                   <use xlink:href="#nav-icon"></use>
                 </switch>
               </svg>
-              <span class="visually-hidden">Table of Contents</span>
+              <span class="visually-hidden">Menu</span>
             </button>
           </div>
         </nav>

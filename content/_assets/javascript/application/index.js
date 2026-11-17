@@ -30,14 +30,17 @@ window.toggleMenu = () => {
   const catalogEntryImage = document.querySelector(
     '.side-by-side > .quire-entry__image-wrap > .quire-entry__image'
   )
+  const menuButton = document.getElementById('quire-controls-menu-button')
   const menuAriaStatus = menu.getAttribute('aria-expanded')
   menu.classList.toggle('is-expanded', !menu.classList.contains('is-expanded'))
   if (menuAriaStatus === 'true') {
     catalogEntryImage && catalogEntryImage.classList.remove('menu_open')
     menu.setAttribute('aria-expanded', 'false')
+    menuButton && menuButton.setAttribute('aria-expanded', 'false')
   } else {
     catalogEntryImage && catalogEntryImage.classList.add('menu_open')
     menu.setAttribute('aria-expanded', 'true')
+    menuButton && menuButton.setAttribute('aria-expanded', 'true')
   }
 }
 

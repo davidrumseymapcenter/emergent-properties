@@ -279,3 +279,23 @@
     gap: .15rem;
   }
 }
+
+/* Menu button (top right): white icon on the side menu's brown ($off-black),
+ * blue ($blue) on hover, so it reads as a control rather than a bare icon. */
+.quire-navbar-button.menu-button {
+  background-color: #755b39;
+  cursor: pointer;
+}
+.quire-navbar-button.menu-button svg {
+  fill: #ffffff;
+}
+.quire-navbar-button.menu-button:hover {
+  background-color: #3e6f94;
+}
+.quire-navbar-button.menu-button:active {
+  background-color: #2f5571;
+}
+.quire-navbar-button.menu-button:focus-visible {
+  outline: 3px solid #3e6f94;
+  outline-offset: 2px;
+}
