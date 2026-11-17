@@ -326,3 +326,9 @@ figure_list:
   #   src: figures/drmcspace.jpg
   #   caption: “The David Rumsey Map Center at Stanford University Libraries”
   #   credit: “Michaela Go”
+
+  # About page: installation view of the exhibition, added locally 2026-11-16.
+  - id: "about-1"
+    src: DRMC_11-26_0004.jpg
+    alt: "Installation view of the exhibition: a lit wooden display case set between glass-fronted bookcases of old atlases, with a globe on top of each. The upright panel holds the 'Data Visualization Beyond the Map' label, a comparative chart of mountain heights above a world map, a long colorful timeline of American political parties, and a folded sheet of cross-sections through California. Open books with charts and maps lie in the sloped case below."
+    zoom: false
