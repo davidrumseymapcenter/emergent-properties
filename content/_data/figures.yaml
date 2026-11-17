@@ -18,13 +18,15 @@
 # comment, at `full/!4000,4000/0/default.jpg` (longest edge 4000px). Re-download
 # from that URL to refresh or to fetch a different size.
 #
-# Still to do: `alt` text for every figure.
+# `alt` text was written from the images themselves on 2026-11-16 and should be
+# checked by someone who knows the objects.
 
 figure_list:
   # source: https://stacks.stanford.edu/image/iiif/mv556fd9168%2Fmv556fd9168_00_0001
   # canvas: https://purl.stanford.edu/mv556fd9168/iiif/canvas/cocina-fileSet-mv556fd9168-mv556fd9168_1
   - id: "cat-1"
     src: figures/cat-1.jpg
+    alt: "Hand-colored woodcut map of Italy in the Ptolemaic style, with the peninsula stretched from west to east. Tan land is crowded with rivers and place names, set against blue seas; Corsica, Sardinia and the tip of Sicily sit along the bottom edge."
     zoom: true
 
   # fixed
@@ -33,6 +35,7 @@ figure_list:
   # canvas: https://purl.stanford.edu/np593hr6132/iiif/canvas/cocina-fileSet-hg446zm6747-hg446zm6747_1
   - id: "cat-2"
     src: figures/cat-2.jpg
+    alt: "Engraved black-and-white world map in an oval, shown as an open atlas spread. The continents are recognizable but distorted, and a vast imagined southern continent runs along the bottom. Clouds fill the corners, with the title in a banner above and a Latin quotation below."
     zoom: true
 
   # cat. 3: manifest has 754 canvases; this is page 90, "Vol I (43) Venetia (Venice)".
@@ -40,23 +43,27 @@ figure_list:
   # canvas: https://purl.stanford.edu/db076zm5895/iiif/canvas/cocina-fileSet-wk475qx4162-wk475qx4162_1
   - id: "cat-3"
     src: figures/cat-3.jpg
+    alt: "Engraved bird’s-eye view of Venice across an open atlas spread. The dense city curves around the Grand Canal, with Giudecca and San Giorgio in front and ships and gondolas in the lagoon. A numbered key and a scene of robed Venetian dignitaries run along the bottom."
     zoom: true
 
   # cat. 4: 11621 × 4282 px. Image added locally; source not recorded.
   - id: "cat-4"
     src: figures/cat-4.jpg
+    alt: "Twelve tapering, pointed globe gores and two circular polar caps laid out in a row on a gray background. They are engraved with constellation figures: mythological people, animals, sea serpents and ships among the stars."
     zoom: true
 
   # cat. 5: 14990 × 661 px. Image added locally; source not recorded.
   # `region` (x,y,width,height in image pixels) opens the viewer zoomed in on Taiwan.
   - id: "cat-5"
     src: figures/cat-5.jpg
+    alt: "A very long, narrow hand-painted scroll map of the Chinese coast. Land runs along the top in a continuous strip of hills, harbors, walled towns and red flags marking forts, labeled in Chinese characters, with a pale green sea and islands below."
     zoom: true
     region: "8295,0,1680,661"
 
   # cat. 39: image added locally; source not recorded.
   - id: "cat-39"
     src: figures/cat-39.jpg
+    alt: "Engraved sample landscape demonstrating standard mapping symbols, on an open atlas page. It includes shaded hills, a winding river with a bridge, a town, fields, marshes, woods, a formal garden and a star-shaped fortress."
     zoom: true
 
   # cat. 6: manifest has 15 canvases; this is page 4, "Carta Etnografica. II.".
@@ -64,69 +71,95 @@ figure_list:
   # canvas: https://purl.stanford.edu/qf485cq3676/iiif/canvas/cocina-fileSet-zb031tf7933-zb031tf7933_1
   - id: "cat-6"
     src: figures/cat-6.jpg
+    alt: "Color map of Mexico with regions tinted in pale pastels and bar charts of population set into the oceans. The map is framed by about thirty small color scenes of people from different regions in traditional dress, at work, at market, and dancing."
     zoom: true
+
+  # cat. 7: in copyright; low-resolution image added locally, not zoomable.
+  - id: "cat-7"
+    src: figures/cat-7.jpg
+    alt: "Bright pictorial map of the United States with yellow land and blue and green seas, photographed in its frame. Small cartoon figures and captions are spread across the country, a row of portraits runs along the top, and a small inset map and a decorative title wreath sit in the lower corners."
+    zoom: false
+    caption: "This object is still under copyright, so a thumbnail image is being used."
 
   # source: https://stacks.stanford.edu/image/iiif/sy409bk9698%2Fsy409bk9698_05_0001
   # canvas: https://purl.stanford.edu/sy409bk9698/iiif/canvas/cocina-fileSet-sy409bk9698-sy409bk9698_1
   - id: "cat-8"
     src: figures/cat-8.jpg
+    alt: "Engraved map of North America showing California as a long island off the west coast. A scrolled title cartouche fills the upper left, the Atlantic coast and Caribbean islands are at right, and the sheet is mounted on a larger board."
     zoom: true
 
   # source: https://stacks.stanford.edu/image/iiif/dv843cp9178%2F3458000
   # canvas: https://purl.stanford.edu/dv843cp9178/iiif/canvas/cocina-fileSet-dv843cp9178-dv843cp9178_1
   - id: "cat-9"
     src: figures/cat-9.jpg
+    alt: "Black-and-white lithographed map of northern California’s Central Valley. The Sierra Nevada is drawn as a dense mass of shaded hills along the right, the Coast Ranges along the left, and the Sacramento and San Joaquin Rivers wind between them toward San Francisco Bay at lower left."
     zoom: true
 
   # cat. 10: image added locally; source not recorded.
   - id: "cat-10"
     src: figures/cat-10.jpg
+    alt: "Hand-colored map of western North America from the Pacific to the Mississippi, with large territories washed in tan, pink and brown, including Oregon, Upper California and Texas. Two small insets in the lower left show sea and overland routes to California and the gold district."
     zoom: true
 
   # cat. 11: image added locally; source not recorded.
   - id: "cat-11"
     src: figures/cat-11.jpg
+    alt: "Russian engraved nautical chart of the Pacific coast, a narrow strip of coastline running down the page with depth soundings offshore. An inset of a bay sits at upper right above three small drawings of the coast seen from the sea, with an ornate title at lower right and handwritten pencil notes in the margins."
     zoom: true
 
   # source: https://stacks.stanford.edu/image/iiif/vz743gy9625%2Fvz743gy9625_0001
   # canvas: https://purl.stanford.edu/vz743gy9625/iiif/canvas/cocina-fileSet-vz743gy9625-vz743gy9625_1
   - id: "cat-12"
     src: figures/cat-12.jpg
+    alt: "Hand-drawn survey plat in brown ink on pale linen. A narrow, irregular land parcel is outlined between a winding river and a straight road, crossed by survey grid lines, with a handwritten table of boundary measurements at lower left and certification text at lower right."
     zoom: true
 
   # source: https://stacks.stanford.edu/image/iiif/qw436vd3442%2F3451000
   # canvas: https://purl.stanford.edu/qw436vd3442/iiif/canvas/cocina-fileSet-qw436vd3442-qw436vd3442_1
   - id: "cat-13"
     src: figures/cat-13.jpg
+    alt: "Large, faded manuscript map of the Los Angeles basin on yellowed paper. Finely shaded mountain ridges run across the top and down the right side, while the flat basin below is covered in a faint grid of roads, ranch lines and towns, with the coastline curving along the lower left."
     zoom: true
 
   # cat. 14: image added locally; source not recorded.
   - id: "cat-14"
     src: figures/cat-14.jpg
+    alt: "Hand-colored street map of San Francisco’s Chinatown, from Powell to Montgomery Streets and Bush Street to Broadway. Each building lot is outlined, tinted in yellow, pink, red, blue or green, and labeled in Chinese. Two insets at left show the whole city and the Bay Area."
     zoom: true
 
   # cat. 15: image added locally; source not recorded.
   - id: "cat-15"
     src: figures/cat-15.jpg
+    alt: "Map of the continental United States in which each state is raised as a block whose height shows its 1940 Japanese American population. California towers far above the others as a tall yellow-sided column, followed by Washington and Oregon, with the teal states set on a peach background."
     zoom: true
 
   # source: https://stacks.stanford.edu/image/iiif/wn353bn6740%2Fwn353bn6740_0001
   # canvas: https://purl.stanford.edu/wn353bn6740/iiif/canvas/cocina-fileSet-wn353bn6740-wn353bn6740_1
   - id: "cat-16"
     src: figures/cat-16.jpg
+    alt: "Mimeographed map of the Tule Lake camp, showing a grid of numbered residential blocks and sketched buildings such as the hospital, administration, factory and gymnasium. Cartoon figures play baseball, ride a tricycle and hang laundry, and handwritten notes in blue ink include “I live here.” The paper is stained and creased."
     zoom: true
+
+  # cat. 17: in copyright; low-resolution image added locally, not zoomable.
+  - id: "cat-17"
+    src: figures/cat-17.jpg
+    alt: "Poster of California drawn as a brown, tilted three-dimensional block, its mountains, valleys and coastline rendered in dense black line work. The title “California” arches across the top in letters fading from yellow to pink, within ornate scrollwork on a cream background."
+    zoom: false
+    caption: "This object is still under copyright, so a thumbnail image is being used."
 
   # cat. 18: manifest has 2 canvases; this is page 1 (confirmed).
   # source: https://stacks.stanford.edu/image/iiif/jv860xw2416%2Fjv860xw2416_0001
   # canvas: https://purl.stanford.edu/jv860xw2416/iiif/canvas/cocina-fileSet-jv860xw2416-jv860xw2416_1
   - id: "cat-18"
     src: figures/cat-18.jpg
+    alt: "Hand-colored engraved map of Africa, with Madagascar to the east, part of Arabia at upper right, and the coast of Brazil at lower left. An ornate cartouche holds the title, and sea monsters and sailing ships decorate the oceans."
     zoom: true
 
   # source: https://stacks.stanford.edu/image/iiif/cg079yw6169%2FAM_0070
   # canvas: https://purl.stanford.edu/cg079yw6169/iiif/canvas/cocina-fileSet-cg079yw6169-19f58952-e039-479d-aaaf-7fa2c240c247
   - id: "cat-19"
     src: figures/cat-19.jpg
+    alt: "Engraved chart of the northwest African coast, shown on an open page. The coastline runs diagonally from the Strait of Gibraltar at top right to Cape Verde at bottom left, with Madeira and the Canary Islands offshore and two compass roses in the Atlantic."
     zoom: true
 
   # cat. 20: manifest has 2 canvases; this is page 1 (confirmed).
@@ -134,93 +167,159 @@ figure_list:
   # canvas: https://purl.stanford.edu/cv760nn3650/iiif/canvas/cocina-fileSet-cv760nn3650-cv760nn3650_1
   - id: "cat-20"
     src: figures/cat-20.jpg
+    alt: "Hand-colored engraved map of West Africa, with the Sahara as a pale stippled expanse across the middle and the sea shaded gray. Red and blue dotted lines trace explorer Mungo Park’s routes along the Niger River."
     zoom: true
 
   # source: https://stacks.stanford.edu/image/iiif/hx272fg8982%2Fhx272fg8982_0001
   # canvas: https://purl.stanford.edu/hx272fg8982/iiif/canvas/cocina-fileSet-hx272fg8982-hx272fg8982_1
   - id: "cat-21"
     src: figures/cat-21.jpg
+    alt: "Lithographed map of the Atlantic coast of Congo and Angola, with rivers and shaded hills running inland and Angola’s borders edged in pink, green and yellow. A block of French text sits in the open ocean at left."
     zoom: true
 
   # source: https://stacks.stanford.edu/image/iiif/kr134gt2759%2F12469000
   # canvas: https://purl.stanford.edu/kr134gt2759/iiif/canvas/cocina-fileSet-kr134gt2759-kr134gt2759_1
   - id: "cat-22"
     src: figures/cat-22.jpg
+    alt: "Colorful pictorial map of South Africa around the time of the Boer War, with green land, brown hills and red railway lines linking towns. Painted views of cities are set into the landscape, Queen Victoria’s portrait is at top center, British generals fill the upper corners, and soldiers stand in the lower corners. Part of the right edge is damaged."
     zoom: true
+
+  # cat. 23: in copyright; low-resolution image added locally, not zoomable.
+  - id: "cat-23"
+    src: figures/cat-23.jpg
+    alt: "Framed map of the West African coast, photographed on display. The land is divided into many small regions colored in pale yellow, purple, green and orange, crossed by blue-green rivers, with a stippled pale green sea above and a circular title at lower left inside a patterned border."
+    zoom: false
+    caption: "This object is still under copyright, so a thumbnail image is being used."
 
   # cat. 24: image added locally; source not recorded.
   - id: "cat-24"
     src: figures/cat-24.jpg
+    alt: "Hand-colored line chart of England’s trade with North America from 1700 to 1800. A pink exports line and a yellow imports line rise across the century, with the gap between them shaded green and labeled “Balance in favour of England.” Exports plunge sharply in the late 1770s before climbing again."
     zoom: true
 
   # cat. 25: image added locally; source not recorded.
   - id: "cat-25"
     src: figures/cat-25.jpg
+    alt: "Lithograph of London seen from above at night, with the moon and stars over a city of lit streets and the winding Thames. A line across the sky traces the balloon’s height in feet over time, and the landmarks it passed are labeled along the bottom."
     zoom: true
 
   # cat. 26: image added locally; source not recorded.
   - id: "cat-26"
     src: figures/cat-26.jpg
+    alt: "Long horizontal chart of American political parties from 1789 to 1880, drawn as colored streams that split, merge and twist across the page: Federalist, Democratic-Republican, Whig, Democratic and Republican. Presidents’ names run along the top, notes on issues fill the spaces, and election results form a band along the bottom."
     zoom: true
 
   # cat. 27: image added locally; source not recorded.
   - id: "cat-27"
     src: figures/cat-27.jpg
+    alt: "Illustrated chart on a book page. A row of tomato paste cans grows larger from 1898 to 1928 to show rising exports, and below it racks of hanging hams and sausages grow longer to show exports of cured meats from 1876 to 1928, with figures printed in red."
     zoom: true
 
   # cat. 28: image added locally; source not recorded.
   - id: "cat-28"
     src: figures/cat-28.jpg
+    alt: "Open book with two maps of Moscow. The left shows bus routes in red radiating from the center, the right shows trolleybus routes in blue. Below each, rows of small bus or trolleybus icons show the size of the fleet in each year."
     zoom: true
+
+  # cat. 29: in copyright; low-resolution image added locally, not zoomable.
+  - id: "cat-29"
+    src: figures/cat-29.jpg
+    alt: "Fold-out poster photographed in its frame. The left panel is a tall map of California crossed by seventeen east-to-west elevation profiles decorated with small symbols for trees, fields and buildings. The right panel has the title, an introduction and three pictorial charts of crops, sources of electricity and population growth."
+    zoom: false
+    caption: "This object is still under copyright, so a thumbnail image is being used."
 
   # cat. 30: image added locally; source not recorded.
   - id: "cat-30"
     src: figures/cat-30.jpg
+    alt: "Two-part sheet mounted on linen. The top is a chart of the world’s highest mountains, drawn as tall, colored spires grouped by region and labeled with names and heights. The bottom is a world map with the major mountain ranges picked out in color."
     zoom: true
+
+  # cat. 31: in copyright; low-resolution image added locally, not zoomable.
+  - id: "cat-31"
+    src: figures/cat-31.jpg
+    alt: "Photograph of an open book showing two artworks on facing pages. On the left, a world map is projected onto an egg shape, with the Americas in blue. On the right, the world is projected onto a pyramid, showing Asia and Australia."
+    zoom: false
+    caption: "This object is still under copyright, so a thumbnail image is being used."
 
   # source: https://stacks.stanford.edu/image/iiif/nz845pt4966%2F11362000
   # canvas: https://purl.stanford.edu/nz845pt4966/iiif/canvas/cocina-fileSet-nz845pt4966-nz845pt4966_1
   - id: "cat-32"
     src: figures/cat-32.jpg
+    alt: "Colorful bird’s-eye map of Greenwich Village, packed with tiny pink, orange and green buildings, the green squares of Washington Square, and puffy white clouds holding verses. Ocean liners line the Hudson River piers at right beside a sea serpent. The map sits in a wide sepia border of drawn figures, airships and airplanes."
     zoom: true
+
+  # cat. 33: in copyright; low-resolution image added locally, not zoomable.
+  - id: "cat-33"
+    src: figures/cat-33.jpg
+    alt: "Hand-drawn pen map on a spiral notebook page, giving directions from San Francisco across the Golden Gate Bridge to a house in Muir Beach. Roads, Mill Valley and Mount Tamalpais are labeled in hand lettering, with a clifftop house and setting sun at upper right and a sailing ship and compass rose at left."
+    zoom: false
+    caption: "This object is still under copyright, so a thumbnail image is being used."
+
+  # cat. 34: in copyright; low-resolution image added locally, not zoomable.
+  - id: "cat-34"
+    src: figures/cat-34.jpg
+    alt: "Bright orange and brown map of southeast San Francisco neighborhoods, including Excelsior, Portola, Visitacion Valley and Bayview–Hunters Point, with parks in green. Many leader lines point to community places, and drawings of people making music, cycling and playing, along with birds and plants, fill the edges."
+    zoom: false
+    caption: "This object is still under copyright, so a thumbnail image is being used."
+
+  # cat. 35: in copyright; low-resolution image added locally, not zoomable.
+  - id: "cat-35"
+    src: figures/cat-35.jpg
+    alt: "Print in bright orange, green and blue, divided into two halves. The top shows rows of stylized orange buildings around a green lake below mountains. The bottom shows green trees and winding blue streams flowing into a wetland. Flocks of blue birds and dotted clouds cross the middle."
+    zoom: false
+    caption: "This object is still under copyright, so a thumbnail image is being used."
+
+  # cat. 36: in copyright; image (1594px wide) added locally, not zoomable.
+  - id: "cat-36"
+    src: figures/cat-36.jpg
+    alt: "Photograph of a large, square fabric map of the San Francisco Bay Area hanging on a gallery wall above display cases. A deep blue ocean meets green and yellow land covered in pale lines and handwritten notes, words are scrawled in orange across the water, and dark drips run down from points on the land."
+    zoom: false
+    caption: "This object is on display in the David Rumsey Map Center. Because it is still under copyright, it cannot be shown here at high resolution."
 
   # source: https://stacks.stanford.edu/image/iiif/jr928qs9123%2Fjr928qs9123_0001
   # canvas: https://purl.stanford.edu/jr928qs9123/iiif/canvas/cocina-fileSet-jr928qs9123-jr928qs9123_1
   - id: "cat-37"
     src: figures/cat-37.jpg
+    alt: "Engraved world map divided into eight rounded, petal-shaped segments: four for the northern hemisphere above and four for the southern below, each narrowing to a pole. A large imagined southern continent fills much of the lower half."
     zoom: true
 
   # source: https://stacks.stanford.edu/image/iiif/kx021sb6886%2Fkx021sb6886_0001
   # canvas: https://purl.stanford.edu/kx021sb6886/iiif/canvas/cocina-fileSet-kx021sb6886-kx021sb6886_1
   - id: "cat-38"
     src: figures/cat-38.jpg
+    alt: "Hand-drawn chart of South America on brown-toned paper. The coastlines are lined with place names, the interior is mostly empty, and straight lines radiate across the sea from compass points. The Caribbean is at upper left and an ornate title sits at lower right."
     zoom: true
 
   # cat. 40: two-page spread: log page and map "From Esquimalt to San Francisco".
   # Image added locally; source not recorded.
   - id: "cat-40"
     src: figures/cat-40.jpg
+    alt: "Open logbook. The left page is a handwritten table of hourly courses, winds and barometer readings with remarks. The right page is a hand-drawn map of the Pacific coast from Vancouver Island to San Francisco, with a compass rose and a boxed title reading “H.M.S. Swiftsure, From Esquimalt to San Francisco, Nov. 1884.”"
     zoom: true
 
   # cat. 41: image added locally; source not recorded.
   - id: "cat-41"
     src: figures/cat-41.jpg
+    alt: "A black and brass quintant, a navigation instrument similar to a sextant, with a telescope, small mirrors and a curved brass scale engraved “Cary London.” It sits beside its worn, stitched leather carrying case and strap on a black display mat."
     zoom: true
 
   # cat. 42: two-page spread (bound top to bottom): survey notes and gridded sketch.
   # Image added locally; source not recorded.
   - id: "cat-42"
     src: figures/cat-42.jpg
+    alt: "Open survey notebook. The top page is a printed form filled in by hand in pencil, listing stations, distances and compass bearings. The lower page has a loose pencil sketch of hills and routes on red grid paper."
     zoom: true
 
   # cat. 43: image added locally; source not recorded.
   - id: "cat-43"
     src: figures/cat-43.jpg
+    alt: "An open aluminum Brunton pocket compass on a black mat, with a mirror in the lid, a needle over a graduated dial, and a brass sighting arm folded out to the front."
     zoom: true
 
   # cat. 44: image added locally; source not recorded.
   - id: "cat-44"
     src: figures/cat-44.jpg
+    alt: "Map of California turned on its side, so the Pacific coast runs along the bottom with north to the left. A grid of public land survey townships covers the Central Valley and parts of the coast, and the Sierra Nevada is labeled across the top. Most of the state is blank."
     zoom: true
 
   # - id: “image-1”

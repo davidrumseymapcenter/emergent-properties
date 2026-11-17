@@ -95,6 +95,8 @@ object_list:
     dimensions: "73 × 95 cm (28.7 × 37.4 in.)"
     location: David Rumsey Map Collection
     link: https://searchworks.stanford.edu/view/11878313
+    figure:
+      - id: "cat-7"
 
   # ---------------------------------------------------------------------------
   # Changing California
@@ -210,6 +212,8 @@ object_list:
     dimensions: "95 × 71 cm (37.4 × 28 in.)"
     location: David Rumsey Map Collection
     link: https://searchworks.stanford.edu/view/11878427
+    figure:
+      - id: "cat-17"
 
   # ---------------------------------------------------------------------------
   # Mapping Africa: Colonial Views to Local Narratives
@@ -276,6 +280,8 @@ object_list:
     year: "2024"
     dimensions: "63 × 92 cm (24.8 × 36.2 in.)"
     link: https://searchworks.stanford.edu/view/in00000870297
+    figure:
+      - id: "cat-23"
 
   # ---------------------------------------------------------------------------
   # Data Visualization Beyond the Map
@@ -347,6 +353,8 @@ object_list:
     dimensions: "72 × 25 cm (28.3 × 9.8 in.)"
     location: David Rumsey Map Collection
     link: https://searchworks.stanford.edu/view/14309017
+    figure:
+      - id: "cat-29"
 
   - id: "30"
     title: "Hohen Charte oder bildlich vergleichende Ubersicht der bedeutendsten Berge (*Elevational Chart, or a Pictorial Comparative Overview of the Most Significant Mountains*)"
@@ -371,6 +379,8 @@ object_list:
     dimensions: "28 × 21 cm (11 × 8.3 in.)"
     location: David Rumsey Map Collection
     link: https://www.davidrumsey.com/luna/servlet/s/o2mwvh
+    figure:
+      - id: "cat-31"
 
   - id: "32"
     title: Map of Greenwich Village made for the Whitney Studio Club
@@ -390,6 +400,8 @@ object_list:
     dimensions: "36 × 28 cm (14.2 × 11 in.)"
     location: David Rumsey Map Collection
     link: https://searchworks.stanford.edu/view/14310101
+    figure:
+      - id: "cat-33"
 
   - id: "34"
     title: "A Cultural Map: Southeast San Francisco"
@@ -399,6 +411,8 @@ object_list:
     dimensions: "30 × 40 cm (11.8 × 15.7 in.)"
     location: David Rumsey Map Collection
     link: https://searchworks.stanford.edu/view/13420162
+    figure:
+      - id: "cat-34"
 
   - id: "35"
     title: Swamp then lake now
@@ -407,6 +421,8 @@ object_list:
     year: "2023"
     dimensions: "40.8 × 27 cm (16.1 × 10.6 in.)"
     link: https://searchworks.stanford.edu/view/in00000087304
+    figure:
+      - id: "cat-35"
 
   - id: "36"
     title: Land of Opportunity
@@ -416,6 +432,8 @@ object_list:
     dimensions: "213 × 213 cm (83.9 × 83.9 in.)"
     location: David Rumsey Map Collection
     link: https://searchworks.stanford.edu/view/in00000084241
+    figure:
+      - id: "cat-36"
 
   # ---------------------------------------------------------------------------
   # Measuring and Mapping the World
