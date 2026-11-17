@@ -17,4 +17,4 @@ credits:
 
 This exhibition is the product of combined efforts on the part of the David Rumsey Map Center staff.
 
-The team is grateful for the enduring support of Stanford University Libraries, David and Abby Smith-Rumsey, Julie Sweetkind-Singer, Alma Parada, and Michael Keller.
+The team is grateful for the enduring support of Stanford University Libraries, David and Abby Smith Rumsey, Julie Sweetkind-Singer, Alma Parada, and Michael Keller.
