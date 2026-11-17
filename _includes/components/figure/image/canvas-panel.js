@@ -1,3 +1,4 @@
+import escape from 'html-escape'
 import { html } from '#lib/common-tags/index.js'
 import chalkFactory from '#lib/chalk/index.js'
 
@@ -22,6 +23,7 @@ export default function (eleventyConfig) {
    */
   return function (data) {
     const {
+      alt = '',
       annotations,
       canvasId,
       choiceId: choice,
@@ -49,8 +51,13 @@ export default function (eleventyConfig) {
       choiceId = selectedAnnotation ? selectedAnnotation.uri : defaultAnnotation.uri
     }
 
+    // Local edit (not upstream Quire): <canvas-panel> ignores `alt`, so expose
+    // the figure's alt text to assistive technology on the element itself.
+    const altAttributes = alt ? `role="img" aria-label="${escape(alt)}"` : ''
+
     return html`
       <canvas-panel
+        ${altAttributes}
         canvas-id="${canvasId}"
         choice-id="${choiceId}"
         height="${height}"
