@@ -28,7 +28,7 @@ object_list:
     year: "1482"
     dimensions: "35 × 54 cm (13.8 × 21.3 in.)"
     location: Susan & Benjamin Caughey Map Collection
-    link: https://purl.stanford.edu/mv556fd9168
+    link: https://searchworks.stanford.edu/view/11960318
     note: Facsimile
     figure:
       - id: "cat-1"
@@ -40,7 +40,7 @@ object_list:
     year: "1570"
     dimensions: "30 × 42 cm (11.8 × 16.5 in.)"
     location: David Rumsey Map Collection
-    link: https://purl.stanford.edu/np593hr6132
+    link: https://searchworks.stanford.edu/view/11403483
     figure:
       - id: "cat-2"
 
@@ -51,7 +51,7 @@ object_list:
     year: "1572"
     dimensions: "34 × 48 cm (13.4 × 18.9 in.)"
     location: David Rumsey Map Collection
-    link: https://purl.stanford.edu/db076zm5895
+    link: https://searchworks.stanford.edu/view/11878562
     figure:
       - id: "cat-3"
 
@@ -84,7 +84,7 @@ object_list:
     year: "1885"
     dimensions: "55 × 69 cm (21.7 × 27.2 in.)"
     location: David Rumsey Map Collection
-    link: https://purl.stanford.edu/qf485cq3676
+    link: https://searchworks.stanford.edu/view/10450205
     figure:
       - id: "cat-7"
 
@@ -95,7 +95,7 @@ object_list:
     year: "1946"
     dimensions: "73 × 95 cm (28.7 × 37.4 in.)"
     location: David Rumsey Map Collection
-    link: https://purl.stanford.edu/cy874bv0553
+    link: https://searchworks.stanford.edu/view/11878313
 
   # ---------------------------------------------------------------------------
   # Changing California
@@ -111,7 +111,7 @@ object_list:
     year: "1625"
     dimensions: "27 × 34 cm (10.6 × 13.4 in.)"
     location: The Glen McLaughlin Map Collection of California as an Island
-    link: https://purl.stanford.edu/sy409bk9698
+    link: https://searchworks.stanford.edu/view/9917574
     figure:
       - id: "cat-9"
 
@@ -122,7 +122,7 @@ object_list:
     year: "1848"
     dimensions: "55 × 39 cm (21.7 × 15.4 in.)"
     location: David Rumsey Map Collection
-    link: https://purl.stanford.edu/dv843cp9178
+    link: https://searchworks.stanford.edu/view/10451994
     figure:
       - id: "cat-10"
 
@@ -156,7 +156,7 @@ object_list:
     artist: James W. Mandeville
     year: "1861"
     dimensions: "48 × 37 cm (18.9 × 14.6 in.)"
-    link: https://purl.stanford.edu/vz743gy9625
+    link: https://searchworks.stanford.edu/view/in00000896692
     figure:
       - id: "cat-13"
 
@@ -166,7 +166,7 @@ object_list:
     year: "[1880]"
     dimensions: "93 × 147 cm (36.6 × 57.9 in.)"
     location: David Rumsey Map Collection
-    link: https://purl.stanford.edu/qw436vd3442
+    link: https://searchworks.stanford.edu/view/10450414
     figure:
       - id: "cat-14"
 
@@ -199,7 +199,7 @@ object_list:
     place: Newell, California
     year: "1943"
     dimensions: "21.6 × 36 cm (8.5 × 14.2 in.)"
-    link: https://purl.stanford.edu/wn353bn6740
+    link: https://searchworks.stanford.edu/view/14197097
     figure:
       - id: "cat-17"
 
@@ -210,7 +210,7 @@ object_list:
     year: "1968"
     dimensions: "95 × 71 cm (37.4 × 28 in.)"
     location: David Rumsey Map Collection
-    link: https://purl.stanford.edu/dt929br0440
+    link: https://searchworks.stanford.edu/view/11878427
 
   # ---------------------------------------------------------------------------
   # Mapping Africa: Colonial Views to Local Narratives
@@ -223,7 +223,7 @@ object_list:
     year: "1570"
     dimensions: "37.5 × 51 cm (14.8 × 20.1 in.)"
     location: Louis O’Neill Collection
-    link: https://purl.stanford.edu/jv860xw2416
+    link: https://searchworks.stanford.edu/view/in00000116243
     figure:
       - id: "cat-19"
 
@@ -234,7 +234,7 @@ object_list:
     year: "1803"
     dimensions: "40 × 25.5 cm (15.7 × 10 in.)"
     location: Dr. Oscar I. Norwich collection of maps of Africa and its islands
-    link: https://purl.stanford.edu/cg079yw6169
+    link: https://searchworks.stanford.edu/view/12113414
     figure:
       - id: "cat-20"
 
@@ -244,7 +244,7 @@ object_list:
     place: Edinburgh
     year: "1820"
     dimensions: "33 × 27 cm (13 × 10.6 in.)"
-    link: https://purl.stanford.edu/cv760nn3650
+    link: https://searchworks.stanford.edu/view/11502908
     figure:
       - id: "cat-21"
 
@@ -255,7 +255,7 @@ object_list:
     year: "1827"
     dimensions: "37 × 53 cm (14.6 × 20.9 in.)"
     location: Louis O’Neill Collection
-    link: https://purl.stanford.edu/hx272fg8982
+    link: https://searchworks.stanford.edu/view/in00000116232
     figure:
       - id: "cat-22"
 
@@ -266,7 +266,7 @@ object_list:
     year: "1900"
     dimensions: "63 × 93 cm (24.8 × 36.6 in.)"
     location: David Rumsey Map Collection
-    link: https://purl.stanford.edu/kr134gt2759
+    link: https://searchworks.stanford.edu/view/12375036
     figure:
       - id: "cat-23"
 
@@ -380,7 +380,7 @@ object_list:
     year: "1920"
     dimensions: "59 × 75 cm (23.2 × 29.5 in.)"
     location: David Rumsey Map Collection
-    link: https://purl.stanford.edu/nz845pt4966
+    link: https://searchworks.stanford.edu/view/11878377
     figure:
       - id: "cat-33"
 
@@ -432,7 +432,7 @@ object_list:
     place: Frankfurt
     year: "1628"
     dimensions: "31.9 × 55.6 cm (12.6 × 21.9 in.)"
-    link: https://purl.stanford.edu/jr928qs9123
+    link: https://searchworks.stanford.edu/view/in00000861156
     figure:
       - id: "cat-38"
 
@@ -442,7 +442,7 @@ object_list:
     artist: Author unknown
     year: "1740"
     dimensions: "88.8 × 56.2 cm (35 × 22.1 in.)"
-    link: https://purl.stanford.edu/kx021sb6886
+    link: https://searchworks.stanford.edu/view/in00000303672
     figure:
       - id: "cat-39"
 
@@ -463,7 +463,7 @@ object_list:
     year: "1884"
     dimensions: "33 × 20 cm (13 × 7.9 in.)"
     location: David Rumsey Map Collection
-    link: https://purl.stanford.edu/kf257mt7051
+    link: https://searchworks.stanford.edu/view/10450568
     figure:
       - id: "cat-40"
 
@@ -481,7 +481,7 @@ object_list:
     title: "[Manuscript survey journal of Gilbert Thompson, Wheeler Survey]"
     artist: Gilbert Thompson
     year: "1878"
-    link: https://purl.stanford.edu/gw760ks1946
+    link: https://searchworks.stanford.edu/view/in00000130111
     figure:
       - id: "cat-42"
 
