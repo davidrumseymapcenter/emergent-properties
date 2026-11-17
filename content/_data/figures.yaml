@@ -54,26 +54,31 @@ figure_list:
     zoom: true
     region: "8295,0,1680,661"
 
-  # cat. 6: image added locally; source not recorded.
+  # cat. 39: image added locally; source not recorded.
+  - id: "cat-39"
+    src: figures/cat-39.jpg
+    zoom: true
+
+  # cat. 6: manifest has 15 canvases; this is page 4, "Carta Etnografica. II.".
+  # source: https://stacks.stanford.edu/image/iiif/zb031tf7933%2F2693002
+  # canvas: https://purl.stanford.edu/qf485cq3676/iiif/canvas/cocina-fileSet-zb031tf7933-zb031tf7933_1
   - id: "cat-6"
     src: figures/cat-6.jpg
     zoom: true
 
-  # cat. 7: manifest has 15 canvases; this is page 4, "Carta Etnografica. II.".
-  # source: https://stacks.stanford.edu/image/iiif/zb031tf7933%2F2693002
-  # canvas: https://purl.stanford.edu/qf485cq3676/iiif/canvas/cocina-fileSet-zb031tf7933-zb031tf7933_1
-  - id: "cat-7"
-    src: figures/cat-7.jpg
-    zoom: true
-
   # source: https://stacks.stanford.edu/image/iiif/sy409bk9698%2Fsy409bk9698_05_0001
   # canvas: https://purl.stanford.edu/sy409bk9698/iiif/canvas/cocina-fileSet-sy409bk9698-sy409bk9698_1
-  - id: "cat-9"
-    src: figures/cat-9.jpg
+  - id: "cat-8"
+    src: figures/cat-8.jpg
     zoom: true
 
   # source: https://stacks.stanford.edu/image/iiif/dv843cp9178%2F3458000
   # canvas: https://purl.stanford.edu/dv843cp9178/iiif/canvas/cocina-fileSet-dv843cp9178-dv843cp9178_1
+  - id: "cat-9"
+    src: figures/cat-9.jpg
+    zoom: true
+
+  # cat. 10: image added locally; source not recorded.
   - id: "cat-10"
     src: figures/cat-10.jpg
     zoom: true
@@ -83,19 +88,19 @@ figure_list:
     src: figures/cat-11.jpg
     zoom: true
 
-  # cat. 12: image added locally; source not recorded.
+  # source: https://stacks.stanford.edu/image/iiif/vz743gy9625%2Fvz743gy9625_0001
+  # canvas: https://purl.stanford.edu/vz743gy9625/iiif/canvas/cocina-fileSet-vz743gy9625-vz743gy9625_1
   - id: "cat-12"
     src: figures/cat-12.jpg
     zoom: true
 
-  # source: https://stacks.stanford.edu/image/iiif/vz743gy9625%2Fvz743gy9625_0001
-  # canvas: https://purl.stanford.edu/vz743gy9625/iiif/canvas/cocina-fileSet-vz743gy9625-vz743gy9625_1
+  # source: https://stacks.stanford.edu/image/iiif/qw436vd3442%2F3451000
+  # canvas: https://purl.stanford.edu/qw436vd3442/iiif/canvas/cocina-fileSet-qw436vd3442-qw436vd3442_1
   - id: "cat-13"
     src: figures/cat-13.jpg
     zoom: true
 
-  # source: https://stacks.stanford.edu/image/iiif/qw436vd3442%2F3451000
-  # canvas: https://purl.stanford.edu/qw436vd3442/iiif/canvas/cocina-fileSet-qw436vd3442-qw436vd3442_1
+  # cat. 14: image added locally; source not recorded.
   - id: "cat-14"
     src: figures/cat-14.jpg
     zoom: true
@@ -105,47 +110,47 @@ figure_list:
     src: figures/cat-15.jpg
     zoom: true
 
-  # cat. 16: image added locally; source not recorded.
+  # source: https://stacks.stanford.edu/image/iiif/wn353bn6740%2Fwn353bn6740_0001
+  # canvas: https://purl.stanford.edu/wn353bn6740/iiif/canvas/cocina-fileSet-wn353bn6740-wn353bn6740_1
   - id: "cat-16"
     src: figures/cat-16.jpg
     zoom: true
 
-  # source: https://stacks.stanford.edu/image/iiif/wn353bn6740%2Fwn353bn6740_0001
-  # canvas: https://purl.stanford.edu/wn353bn6740/iiif/canvas/cocina-fileSet-wn353bn6740-wn353bn6740_1
-  - id: "cat-17"
-    src: figures/cat-17.jpg
-    zoom: true
-
-  # cat. 19: manifest has 2 canvases; this is page 1 (confirmed).
+  # cat. 18: manifest has 2 canvases; this is page 1 (confirmed).
   # source: https://stacks.stanford.edu/image/iiif/jv860xw2416%2Fjv860xw2416_0001
   # canvas: https://purl.stanford.edu/jv860xw2416/iiif/canvas/cocina-fileSet-jv860xw2416-jv860xw2416_1
-  - id: "cat-19"
-    src: figures/cat-19.jpg
+  - id: "cat-18"
+    src: figures/cat-18.jpg
     zoom: true
 
   # source: https://stacks.stanford.edu/image/iiif/cg079yw6169%2FAM_0070
   # canvas: https://purl.stanford.edu/cg079yw6169/iiif/canvas/cocina-fileSet-cg079yw6169-19f58952-e039-479d-aaaf-7fa2c240c247
+  - id: "cat-19"
+    src: figures/cat-19.jpg
+    zoom: true
+
+  # cat. 20: manifest has 2 canvases; this is page 1 (confirmed).
+  # source: https://stacks.stanford.edu/image/iiif/cv760nn3650%2Fcv760nn3650_0001
+  # canvas: https://purl.stanford.edu/cv760nn3650/iiif/canvas/cocina-fileSet-cv760nn3650-cv760nn3650_1
   - id: "cat-20"
     src: figures/cat-20.jpg
     zoom: true
 
-  # cat. 21: manifest has 2 canvases; this is page 1 (confirmed).
-  # source: https://stacks.stanford.edu/image/iiif/cv760nn3650%2Fcv760nn3650_0001
-  # canvas: https://purl.stanford.edu/cv760nn3650/iiif/canvas/cocina-fileSet-cv760nn3650-cv760nn3650_1
+  # source: https://stacks.stanford.edu/image/iiif/hx272fg8982%2Fhx272fg8982_0001
+  # canvas: https://purl.stanford.edu/hx272fg8982/iiif/canvas/cocina-fileSet-hx272fg8982-hx272fg8982_1
   - id: "cat-21"
     src: figures/cat-21.jpg
     zoom: true
 
-  # source: https://stacks.stanford.edu/image/iiif/hx272fg8982%2Fhx272fg8982_0001
-  # canvas: https://purl.stanford.edu/hx272fg8982/iiif/canvas/cocina-fileSet-hx272fg8982-hx272fg8982_1
+  # source: https://stacks.stanford.edu/image/iiif/kr134gt2759%2F12469000
+  # canvas: https://purl.stanford.edu/kr134gt2759/iiif/canvas/cocina-fileSet-kr134gt2759-kr134gt2759_1
   - id: "cat-22"
     src: figures/cat-22.jpg
     zoom: true
 
-  # source: https://stacks.stanford.edu/image/iiif/kr134gt2759%2F12469000
-  # canvas: https://purl.stanford.edu/kr134gt2759/iiif/canvas/cocina-fileSet-kr134gt2759-kr134gt2759_1
-  - id: "cat-23"
-    src: figures/cat-23.jpg
+  # cat. 24: image added locally; source not recorded.
+  - id: "cat-24"
+    src: figures/cat-24.jpg
     zoom: true
 
   # cat. 25: image added locally; source not recorded.
@@ -168,32 +173,27 @@ figure_list:
     src: figures/cat-28.jpg
     zoom: true
 
-  # cat. 29: image added locally; source not recorded.
-  - id: "cat-29"
-    src: figures/cat-29.jpg
-    zoom: true
-
-  # cat. 31: image added locally; source not recorded.
-  - id: "cat-31"
-    src: figures/cat-31.jpg
+  # cat. 30: image added locally; source not recorded.
+  - id: "cat-30"
+    src: figures/cat-30.jpg
     zoom: true
 
   # source: https://stacks.stanford.edu/image/iiif/nz845pt4966%2F11362000
   # canvas: https://purl.stanford.edu/nz845pt4966/iiif/canvas/cocina-fileSet-nz845pt4966-nz845pt4966_1
-  - id: "cat-33"
-    src: figures/cat-33.jpg
+  - id: "cat-32"
+    src: figures/cat-32.jpg
     zoom: true
 
   # source: https://stacks.stanford.edu/image/iiif/jr928qs9123%2Fjr928qs9123_0001
   # canvas: https://purl.stanford.edu/jr928qs9123/iiif/canvas/cocina-fileSet-jr928qs9123-jr928qs9123_1
-  - id: "cat-38"
-    src: figures/cat-38.jpg
+  - id: "cat-37"
+    src: figures/cat-37.jpg
     zoom: true
 
   # source: https://stacks.stanford.edu/image/iiif/kx021sb6886%2Fkx021sb6886_0001
   # canvas: https://purl.stanford.edu/kx021sb6886/iiif/canvas/cocina-fileSet-kx021sb6886-kx021sb6886_1
-  - id: "cat-39"
-    src: figures/cat-39.jpg
+  - id: "cat-38"
+    src: figures/cat-38.jpg
     zoom: true
 
   # cat. 40: two-page spread: log page and map "From Esquimalt to San Francisco".

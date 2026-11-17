@@ -18,7 +18,6 @@ object_display_order:
 object_list:
   # ---------------------------------------------------------------------------
   # Six Centuries of Mapmaking
-  # (cat. 6 is numbered here but displayed with Measuring and Mapping the World)
   # ---------------------------------------------------------------------------
 
   - id: "1"
@@ -77,7 +76,7 @@ object_list:
     figure:
       - id: "cat-5"
 
-  - id: "7"
+  - id: "6"
     title: "Carta Etnografica. II. (*Ethnographic Map II*)"
     artist: Antonio García Cubas
     place: Mexico
@@ -86,9 +85,9 @@ object_list:
     location: David Rumsey Map Collection
     link: https://searchworks.stanford.edu/view/10450205
     figure:
-      - id: "cat-7"
+      - id: "cat-6"
 
-  - id: "8"
+  - id: "7"
     title: Americans of Negro Lineage
     artist: Louise E. Jefferson
     place: New York
@@ -101,7 +100,7 @@ object_list:
   # Changing California
   # ---------------------------------------------------------------------------
 
-  - id: "9"
+  - id: "8"
     title: The North part of America conteyning Newfoundland, New England,
       Virginia, Florida, New Spaine and Nova Francia, with ye riche Iles of
       Hispaniola, Cuba, Jamaica, and Porto Rieco, on the south, and upon ye
@@ -113,9 +112,9 @@ object_list:
     location: The Glen McLaughlin Map Collection of California as an Island
     link: https://searchworks.stanford.edu/view/9917574
     figure:
-      - id: "cat-9"
+      - id: "cat-8"
 
-  - id: "10"
+  - id: "9"
     title: "Gold and Quicksilver District of California, 1848"
     artist: Edward Otho Cresap Ord
     place: Washington, D.C.
@@ -124,9 +123,9 @@ object_list:
     location: David Rumsey Map Collection
     link: https://searchworks.stanford.edu/view/10451994
     figure:
-      - id: "cat-10"
+      - id: "cat-9"
 
-  - id: "11"
+  - id: "10"
     title: "A new map of Texas, Oregon and California with the regions
       adjoining: Compiled from the most recent authorities"
     artist: Samuel Augustus Mitchell
@@ -136,9 +135,9 @@ object_list:
     location: David Rumsey Map Collection
     link: https://searchworks.stanford.edu/view/12374411
     figure:
-      - id: "cat-11"
+      - id: "cat-10"
 
-  - id: "12"
+  - id: "11"
     title: "Карта сиeверо западного берега Америки от ширины 39° до 44°
       исправленнаиa Колониальными мореходцами (*Map of the northwest coast of
       America from latitude 39° to 44° corrected by Colonial mariners*)"
@@ -149,18 +148,18 @@ object_list:
     location: David Rumsey Map Collection
     link: https://searchworks.stanford.edu/view/in00000174352
     figure:
-      - id: "cat-12"
+      - id: "cat-11"
 
-  - id: "13"
+  - id: "12"
     title: Plat of the Rancho el Potrero de Santa Clara
     artist: James W. Mandeville
     year: "1861"
     dimensions: "48 × 37 cm (18.9 × 14.6 in.)"
     link: https://searchworks.stanford.edu/view/in00000896692
     figure:
-      - id: "cat-13"
+      - id: "cat-12"
 
-  - id: "14"
+  - id: "13"
     title: "Los Angeles - San Bernardino Basin, circa 1880"
     artist: William Hammond Hall
     year: "[1880]"
@@ -168,9 +167,9 @@ object_list:
     location: David Rumsey Map Collection
     link: https://searchworks.stanford.edu/view/10450414
     figure:
-      - id: "cat-14"
+      - id: "cat-13"
 
-  - id: "15"
+  - id: "14"
     title: "Mei guo san fan shi hua qiao qu: xiang xi tu (*Map of San Francisco
       Chinatown*)"
     artist: J.P. Wong
@@ -180,9 +179,9 @@ object_list:
     location: David Rumsey Map Collection
     link: https://searchworks.stanford.edu/view/13340584
     figure:
-      - id: "cat-15"
+      - id: "cat-14"
 
-  - id: "16"
+  - id: "15"
     title: "Geographical Distribution Japanese Population. United States: 1940"
     artist: United States Office of War Information
     place: Washington, D.C.
@@ -191,9 +190,9 @@ object_list:
     location: David Rumsey Map Collection
     link: https://searchworks.stanford.edu/view/in00000173924
     figure:
-      - id: "cat-16"
+      - id: "cat-15"
 
-  - id: "17"
+  - id: "16"
     title: "[Map of Tule Lake Relocation Center]"
     artist: Tulean Dispatch Daily
     place: Newell, California
@@ -201,9 +200,9 @@ object_list:
     dimensions: "21.6 × 36 cm (8.5 × 14.2 in.)"
     link: https://searchworks.stanford.edu/view/14197097
     figure:
-      - id: "cat-17"
+      - id: "cat-16"
 
-  - id: "18"
+  - id: "17"
     title: California
     artist: David Schiller
     place: San Jose
@@ -216,7 +215,7 @@ object_list:
   # Mapping Africa: Colonial Views to Local Narratives
   # ---------------------------------------------------------------------------
 
-  - id: "19"
+  - id: "18"
     title: "Africae tabula nova (*New map of Africa*)"
     artist: Abraham Ortelius
     place: Antwerp
@@ -225,9 +224,9 @@ object_list:
     location: Louis O’Neill Collection
     link: https://searchworks.stanford.edu/view/in00000116243
     figure:
-      - id: "cat-19"
+      - id: "cat-18"
 
-  - id: "20"
+  - id: "19"
     title: Coast of Africa from the Straits of Gibraltar to Cabo Verde
     artist: Aaron Arrowsmith
     place: London
@@ -236,9 +235,9 @@ object_list:
     location: Dr. Oscar I. Norwich collection of maps of Africa and its islands
     link: https://searchworks.stanford.edu/view/12113414
     figure:
-      - id: "cat-20"
+      - id: "cat-19"
 
-  - id: "21"
+  - id: "20"
     title: West Africa
     artist: Kirkwood & Sons
     place: Edinburgh
@@ -246,9 +245,9 @@ object_list:
     dimensions: "33 × 27 cm (13 × 10.6 in.)"
     link: https://searchworks.stanford.edu/view/11502908
     figure:
-      - id: "cat-21"
+      - id: "cat-20"
 
-  - id: "22"
+  - id: "21"
     title: "Afrique: Congo et Angola (*Africa: Congo and Angola*)"
     artist: Philippe Vandermaelen
     place: Brussels
@@ -257,9 +256,9 @@ object_list:
     location: Louis O’Neill Collection
     link: https://searchworks.stanford.edu/view/in00000116232
     figure:
-      - id: "cat-22"
+      - id: "cat-21"
 
-  - id: "23"
+  - id: "22"
     title: "[South Africa]"
     artist: M. Henry Hargreaves
     place: Manchester
@@ -268,9 +267,9 @@ object_list:
     location: David Rumsey Map Collection
     link: https://searchworks.stanford.edu/view/12375036
     figure:
-      - id: "cat-23"
+      - id: "cat-22"
 
-  - id: "24"
+  - id: "23"
     title: "Iwo-oorun Alkebu-lan (*West Africa*)"
     artist: Nikolaj Jesper Cyon
     place: Stockholm
@@ -282,7 +281,7 @@ object_list:
   # Data Visualization Beyond the Map
   # ---------------------------------------------------------------------------
 
-  - id: "25"
+  - id: "24"
     title: Exports & Imports to and from all North - America.
     artist: William Playfair
     place: London
@@ -291,9 +290,9 @@ object_list:
     location: David Rumsey Map Collection
     link: https://searchworks.stanford.edu/view/in00000173907
     figure:
-      - id: "cat-25"
+      - id: "cat-24"
 
-  - id: "26"
+  - id: "25"
     title: Path of the Balloon over London (at Night)
     artist: James Glaisher
     place: London
@@ -302,9 +301,9 @@ object_list:
     location: David Rumsey Map Collection
     link: https://searchworks.stanford.edu/view/in00000174026
     figure:
-      - id: "cat-26"
+      - id: "cat-25"
 
-  - id: "27"
+  - id: "26"
     title: Presidential Elections
     artist: Walter Houghton
     place: Indianapolis
@@ -313,9 +312,9 @@ object_list:
     location: David Rumsey Map Collection
     link: https://searchworks.stanford.edu/view/14309044
     figure:
-      - id: "cat-27"
+      - id: "cat-26"
 
-  - id: "28"
+  - id: "27"
     title: "Industria delle conserve alimentari (*Food canning industry*)"
     artist: Confederazione generale dell’industria italiana
     place: Rome
@@ -324,9 +323,9 @@ object_list:
     location: David Rumsey Map Collection
     link: https://searchworks.stanford.edu/view/in00000173934
     figure:
-      - id: "cat-28"
+      - id: "cat-27"
 
-  - id: "29"
+  - id: "28"
     title: "Left: ABTOБУCHAЯ CETЬ (*Bus network*); right: TPOЛЛEЙБУCHAЯ CETЬ
       (*Trolleybus network*)"
     artist: Vsesoiuznyĭ nauchno-izdatelʹskiĭ institut izobrazitelʹnoĭ
@@ -338,9 +337,9 @@ object_list:
     location: David Rumsey Map Collection
     link: https://searchworks.stanford.edu/view/in00000174085
     figure:
-      - id: "cat-29"
+      - id: "cat-28"
 
-  - id: "30"
+  - id: "29"
     title: Cross Sections through California
     artist: RJ Andrews
     place: San Francisco
@@ -349,7 +348,7 @@ object_list:
     location: David Rumsey Map Collection
     link: https://searchworks.stanford.edu/view/14309017
 
-  - id: "31"
+  - id: "30"
     title: "Hohen Charte oder bildlich vergleichende Ubersicht der bedeutendsten Berge (*Elevational Chart, or a Pictorial Comparative Overview of the Most Significant Mountains*)"
     artist: Carl Ferdinand Weiland
     place: Weimar
@@ -358,13 +357,13 @@ object_list:
     location: David Rumsey Map Collection
     link: https://searchworks.stanford.edu/view/11523753
     figure:
-      - id: "cat-31"
+      - id: "cat-30"
 
   # ---------------------------------------------------------------------------
   # Unconventional Cartography: Counter-mapping and Artists’ Maps
   # ---------------------------------------------------------------------------
 
-  - id: "32"
+  - id: "31"
     title: "[Map Projections]"
     artist: Agnes Denes
     place: Cambridge
@@ -373,7 +372,7 @@ object_list:
     location: David Rumsey Map Collection
     link: https://www.davidrumsey.com/luna/servlet/s/o2mwvh
 
-  - id: "33"
+  - id: "32"
     title: Map of Greenwich Village made for the Whitney Studio Club
     artist: Kaj Klitgaard and William Edwin Rudge II
     place: New York
@@ -382,9 +381,9 @@ object_list:
     location: David Rumsey Map Collection
     link: https://searchworks.stanford.edu/view/11878377
     figure:
-      - id: "cat-33"
+      - id: "cat-32"
 
-  - id: "34"
+  - id: "33"
     title: Map to Eric’s Place in Muir Beach
     artist: Robert Crumb
     year: "1972"
@@ -392,7 +391,7 @@ object_list:
     location: David Rumsey Map Collection
     link: https://searchworks.stanford.edu/view/14310101
 
-  - id: "35"
+  - id: "34"
     title: "A Cultural Map: Southeast San Francisco"
     artist: Kate Connell, Oscar Melara, and Sofía Vivanco Airaghi
     place: San Francisco
@@ -401,7 +400,7 @@ object_list:
     location: David Rumsey Map Collection
     link: https://searchworks.stanford.edu/view/13420162
 
-  - id: "36"
+  - id: "35"
     title: Swamp then lake now
     artist: Veronica Graham
     place: Oakland
@@ -409,7 +408,7 @@ object_list:
     dimensions: "40.8 × 27 cm (16.1 × 10.6 in.)"
     link: https://searchworks.stanford.edu/view/in00000087304
 
-  - id: "37"
+  - id: "36"
     title: Land of Opportunity
     artist: Connie Zheng
     place: San Francisco
@@ -422,7 +421,7 @@ object_list:
   # Measuring and Mapping the World
   # ---------------------------------------------------------------------------
 
-  - id: "38"
+  - id: "37"
     title: "Novum orbis terrarum schema, in plano sic descriptum, ut graduumtum
       circa polos dilatatio, tum circa aequatorem coarctatio excludatur (*A new
       diagram of the world, drawn on a flat surface in such a way that both the
@@ -434,9 +433,9 @@ object_list:
     dimensions: "31.9 × 55.6 cm (12.6 × 21.9 in.)"
     link: https://searchworks.stanford.edu/view/in00000861156
     figure:
-      - id: "cat-38"
+      - id: "cat-37"
 
-  - id: "39"
+  - id: "38"
     title: "Essay d’une nouvelle carte de L’Amerique Meridionale (*Draft of a
       new map of South America*)"
     artist: Author unknown
@@ -444,9 +443,9 @@ object_list:
     dimensions: "88.8 × 56.2 cm (35 × 22.1 in.)"
     link: https://searchworks.stanford.edu/view/in00000303672
     figure:
-      - id: "cat-39"
+      - id: "cat-38"
 
-  - id: "6"
+  - id: "39"
     title: Synopsis plate shewing some of the principal characters used in mapping
     artist: Benjamin P. Wilme
     place: London
@@ -455,7 +454,7 @@ object_list:
     location: David Rumsey Map Collection
     link: https://searchworks.stanford.edu/view/in00000173897
     figure:
-      - id: "cat-6"
+      - id: "cat-39"
 
   - id: "40"
     title: "Log of H.M.S. “Swiftshure”"
